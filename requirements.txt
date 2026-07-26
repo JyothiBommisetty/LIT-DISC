@@ -1,0 +1,13 @@
+# Core dependencies
+numpy
+pandas
+matplotlib
+seaborn
+
+# Jupyter
+jupyter
+ipykernel
+
+# Optional
+scikit-learn
+scipy
