@@ -36,6 +36,7 @@ class MemoryParams:
     theta_forget: float = 0.01
     rho_reinforce: float = 0.1
     delta_decay: float = 0.05
+    max_size: int = 200
 
 
 @dataclass(frozen=True)

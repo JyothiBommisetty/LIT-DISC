@@ -1,13 +1,21 @@
-# Core dependencies
-numpy
-pandas
-matplotlib
-seaborn
+# LIT-DISC v1.0.0 — Python package requirements
+# Core numerical
+numpy>=2.0,<3.0
 
-# Jupyter
-jupyter
-ipykernel
+# Visualization
+matplotlib>=3.8,<4.0
 
-# Optional
-scikit-learn
-scipy
+# Development & analysis
+pandas>=2.0
+seaborn>=0.13
+
+# Optional — EPUB support
+# ebooklib>=0.18
+
+# Optional — encoding detection
+# chardet>=5.0
+
+# Testing & quality
+pytest>=8.0
+ruff>=0.6
+mypy>=1.10

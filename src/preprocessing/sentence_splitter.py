@@ -25,16 +25,16 @@ class SentenceSplitter:
             stripped = cand.strip()
             if not stripped:
                 continue
-            if i < len(candidates) - 1:
+            if i < len(candidates) - 1 and result:
                 words = stripped.split()
                 if words and words[-1].rstrip(".").lower() in ABBREVIATIONS:
-                    result[-1] = result[-1] + " " + stripped if result else stripped
+                    result[-1] = result[-1] + " " + stripped
                     continue
                 if stripped.endswith('"') or stripped.endswith("'"):
                     stripped = stripped[:-1]
                 words = stripped.split()
                 if len(words) == 1 and words[0].endswith("."):
-                    result[-1] = result[-1] + " " + stripped if result else stripped
+                    result[-1] = result[-1] + " " + stripped
                     continue
             result.append(stripped)
         return result

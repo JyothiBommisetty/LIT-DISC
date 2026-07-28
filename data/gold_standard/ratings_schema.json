@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Expert Rating for LIT-DISC Gold Standard Corpus",
+  "description": "Schema for expert annotator ratings of literary passage discourse richness",
+  "type": "object",
+  "properties": {
+    "expert": {
+      "type": "object",
+      "properties": {
+        "id": {"type": "string", "description": "Anonymized expert identifier (e.g., EXPERT-01)"},
+        "background": {"type": "string", "description": "Academic background (e.g., PhD candidate, Literature)"},
+        "date": {"type": "string", "format": "date", "description": "Date of rating"}
+      },
+      "required": ["id", "background", "date"]
+    },
+    "passage_id": {"type": "string", "pattern": "^[A-Z]{3}-\\d{2}$"},
+    "ratings": {
+      "type": "object",
+      "properties": {
+        "semantic": {"type": "integer", "minimum": 1, "maximum": 7},
+        "narrative": {"type": "integer", "minimum": 1, "maximum": 7},
+        "interaction": {"type": "integer", "minimum": 1, "maximum": 7},
+        "symbolic": {"type": "integer", "minimum": 1, "maximum": 7},
+        "evolution": {"type": "integer", "minimum": 1, "maximum": 7},
+        "emotion": {"type": "integer", "minimum": 1, "maximum": 7},
+        "overall": {"type": "integer", "minimum": 1, "maximum": 7}
+      },
+      "required": ["semantic", "narrative", "interaction", "symbolic", "evolution", "emotion", "overall"]
+    },
+    "confidence": {"type": "integer", "minimum": 1, "maximum": 5},
+    "notes": {"type": "string", "maxLength": 2000}
+  },
+  "required": ["expert", "passage_id", "ratings", "confidence"]
+}

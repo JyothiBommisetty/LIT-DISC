@@ -5,3 +5,33 @@ __pycache__/
 .DS_Store
 Thumbs.db
 tests/_eq_result.txt
+
+# Experimental / debug scripts
+debug_*.py
+batch_test.py
+run_all_final.py
+run_comprehensive.py
+run_mistress_sample.py
+run_scalability.py
+calibrate_theta.py
+timing_test.py
+test_10_passages.py
+test_novel.py
+test_pipeline_quick.py
+trace_retrieve.py
+verify_retrieval.py
+
+# Large data files (not part of gold standard corpus)
+data/mistress_spices_*.txt
+data/mistress_spices_*.md
+data/tale_of_two_cities.txt
+data/stages/
+data/theta_calibration.json
+
+# Output artifacts
+output/
+notebooks/
+figures/
+
+# Jupyter
+.ipynb_checkpoints/

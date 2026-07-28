@@ -3,10 +3,11 @@
 # Reference: Architecture Specification §4
 
 from __future__ import annotations
+
 from dataclasses import dataclass, field
 from typing import Any
-import numpy as np
 
+import numpy as np
 
 NodeID = tuple[int, int]  # (hierarchy_level, node_index)
 Dimension = str           # "S", "N", "I", "Sy", "E", "Em"
@@ -69,6 +70,7 @@ class MemoryEntry:
     beta: float                # activation [0,1]
     storage_tau: float         # τ at storage
     retrieval_count: int       # number of retrievals
+    last_retrieved: float = -1.0  # τ of most recent retrieval (-1 = never)
 
 
 @dataclass(frozen=True)
@@ -77,8 +79,9 @@ class ExplanationTrace:
     propagation_path: dict
     interaction_history: dict
     uncertainty_evolution: list[dict]
-    resonance_contribution: float
-    memory_activations: list[dict]
+    resonance_contribution: float | dict = 0.0
+    memory_activations: list[dict] = field(default_factory=list)
+    contribution_breakdown: dict = field(default_factory=dict)
 
 
 @dataclass(frozen=True)

@@ -1,0 +1,61 @@
+# LIT-DISC v1.0.0 — Frozen Configuration
+# Reference: Architecture Specification §7
+# Generated: 2026-07-28
+
+hmp_dt:
+  refinement_iterations: 5
+  beta_salience: 2.0
+  beta_topdown: 0.3
+  epsilon_convergence: 1.0e-6
+  narrative_samples: 100
+
+  coupling:
+    sigma_tau: 0.1
+    components:
+      C_sim:  {mu: 0.15, omega: 0.30, alpha: 0.10, beta_i: 0.20}
+      C_prox: {mu: 0.55, omega: 0.50, alpha: 0.10, beta_i: 0.20}
+      C_conf: {mu: 0.50, omega: 1.00, alpha: 0.20, beta_i: 0.10}
+      C_comp: {mu: 0.10, omega: 0.20, alpha: 0.05, beta_i: 0.15}
+      C_sym:  {mu: 0.60, omega: 0.40, alpha: 0.05, beta_i: 0.25}
+      C_rel:  {mu: 0.85, omega: 0.30, alpha: 0.05, beta_i: 0.20}
+
+  memory:
+    key_dim: 32
+    sigma_kernel: 1.0
+    seed_W: 0
+    seed_b: 1
+    theta_store: 0.5
+    theta_retrieve: 0.7
+    # NOTE: Gold-standard experiments use theta_retrieve=0.5
+    # (overridden at runtime via dataclasses.replace)
+    theta_forget: 0.01
+    rho_reinforce: 0.1
+    delta_decay: 0.05
+    max_size: 200
+
+  resonance:
+    lambda_decay: 0.3
+    eta_resonance: 0.2
+
+  embedding:
+    dimension: 120
+
+ldri:
+  alpha: 2.0
+  beta: 1.0
+  gamma: 1.0
+  delta: 1.0
+  sigma_max: 0.1
+  bootstrap_samples: 100
+
+# Random seeds
+seeds:
+  rff_W: 0
+  rff_b: 1
+  pipeline_determinism: "numpy.random.seed(42) before each run"
+  notes: >
+    Random Fourier Features use per-dimension seeds
+    (seed_W + input_dim, seed_b + input_dim) to ensure
+    deterministic keys regardless of feature dimension.
+    All randomness in the pipeline is seeded via
+    numpy.random.seed(42) at entry points.

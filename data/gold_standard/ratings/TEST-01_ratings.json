@@ -1,0 +1,359 @@
+{
+  "expert": {
+    "id": "TEST-01",
+    "background": "Test",
+    "date": "2026-08-01"
+  },
+  "ratings": [
+    {
+      "passage_id": "SNC-01",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SNC-02",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SNC-03",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SNC-04",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SNC-05",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MNC-01",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MNC-02",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MNC-03",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MNC-04",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MNC-05",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SSC-01",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SSC-02",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SSC-03",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SSC-04",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "SSC-05",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MLC-01",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MLC-02",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MLC-03",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MLC-04",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "MLC-05",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "NWC-01",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "NWC-02",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "NWC-03",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "NWC-04",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    },
+    {
+      "passage_id": "NWC-05",
+      "scores": {
+        "semantic": 4,
+        "narrative": 4,
+        "interaction": 4,
+        "symbolic": 4,
+        "evolution": 4,
+        "emotion": 4,
+        "overall": 4
+      },
+      "confidence": 3,
+      "notes": ""
+    }
+  ]
+}

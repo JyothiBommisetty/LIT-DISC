@@ -1,3 +1,3 @@
-from .field import ResonanceField
+from .field import NarrativeResonance
 
-__all__ = ["ResonanceField"]
+__all__ = ["NarrativeResonance"]
