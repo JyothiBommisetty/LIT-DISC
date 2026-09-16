@@ -1,0 +1,3 @@
+source,var_log_ldri,gamma_pct,raw_pct,cov_pct
+gold_standard,0.260898,96.5,0.3,3.2
+full_novel,0.046338,95.3,0.2,4.5

@@ -1,0 +1,17 @@
+# LIT-DISC v1.0.0 -- Feature Inter-Correlation Matrix (Pearson/Spearman/Kendall)
+Feature_X,Feature_Y,Pearson_r,Spearman_rho,Kendall_tau
+semantic,narrative,0.7341,0.7985,0.6133
+semantic,interaction,0.7026,0.6492,0.4733
+semantic,symbolic,0.3994,0.5500,0.4400
+semantic,evolution,0.5014,0.5985,0.4867
+semantic,emotion,0.5268,0.5662,0.4133
+narrative,interaction,0.7034,0.6762,0.5267
+narrative,symbolic,0.4549,0.5162,0.3600
+narrative,evolution,0.5230,0.5862,0.4200
+narrative,emotion,0.3702,0.3423,0.2400
+interaction,symbolic,0.5473,0.6100,0.5000
+interaction,evolution,0.4057,0.5162,0.3867
+interaction,emotion,0.5091,0.4700,0.3267
+symbolic,evolution,0.7538,0.9169,0.7800
+symbolic,emotion,0.7002,0.7015,0.5333
+evolution,emotion,0.7303,0.7131,0.5667

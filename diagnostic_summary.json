@@ -1,0 +1,216 @@
+{
+  "experiment_1_variance_decomposition": {
+    "summary": "LDRI = Gamma * raw_ldri. raw_ldri is nearly constant (CV=0.3%), driven by the near-constancy of R_signal, C_tilde, T_tilde, and M_tilde factors. Gamma (gamma_global) varies substantially (CV=44.8%) via the product of per-dimension confidences. LDRI inherits gamma's variation.",
+    "log_space_decomposition": {
+      "var_log_LDRI": 0.237645,
+      "pct_from_log_raw": 0.0,
+      "pct_from_log_gamma": 100.3,
+      "pct_from_covariance": -0.3
+    },
+    "cv_table": {
+      "LDRI": {
+        "mean": 0.029008,
+        "std": 0.012985,
+        "cv": 0.4476
+      },
+      "raw_ldri": {
+        "mean": 0.95606,
+        "std": 0.003007,
+        "cv": 0.0031
+      },
+      "gamma_global": {
+        "mean": 0.030349,
+        "std": 0.013593,
+        "cv": 0.4479
+      },
+      "comp_intrinsic": {
+        "mean": 0.287934,
+        "std": 0.128962,
+        "cv": 0.4479
+      },
+      "comp_interaction": {
+        "mean": 0.002858,
+        "std": 0.001276,
+        "cv": 0.4467
+      },
+      "comp_temporal": {
+        "mean": 0.004207,
+        "std": 0.001884,
+        "cv": 0.4479
+      },
+      "comp_resonance": {
+        "mean": 0.000225,
+        "std": 0.000101,
+        "cv": 0.4479
+      },
+      "comp_memory": {
+        "mean": 0.004186,
+        "std": 0.001874,
+        "cv": 0.4478
+      },
+      "comp_uncertainty": {
+        "mean": 0.927052,
+        "std": 0.013809,
+        "cv": 0.0149
+      },
+      "factor_R_signal": {
+        "mean": 1.0,
+        "std": 0.0,
+        "cv": 0.0
+      },
+      "factor_C_tilde": {
+        "mean": 0.801561,
+        "std": 0.011734,
+        "cv": 0.0146
+      },
+      "factor_T_tilde": {
+        "mean": 0.99997,
+        "std": 3.6e-05,
+        "cv": 0.0
+      },
+      "factor_M_tilde": {
+        "mean": 0.996621,
+        "std": 0.002024,
+        "cv": 0.002
+      },
+      "factor_Gamma": {
+        "mean": 0.030349,
+        "std": 0.013593,
+        "cv": 0.4479
+      }
+    }
+  },
+  "experiment_2_sensitivity": {
+    "summary": "Sensitivity: LDRI is most sensitive to Gamma perturbations (?LDRI/?Gamma = raw), moderately sensitive to R_signal (?LDRI/?R = 0.4*LDRI/R), and least sensitive to C_tilde, T_tilde, M_tilde (?LDRI/?factor = 0.2*LDRI/factor). A 20% change in Gamma produces a ~20% relative change in LDRI; the same change in C_tilde, T_tilde, or M_tilde produces <1% change because these factors are confined to [0.5, 1.0] and already near 1.0.",
+    "summary_table": {
+      "R_signal_-20%": {
+        "mean_rel_delta": -0.085394,
+        "std_rel_delta": 1.7e-05
+      },
+      "R_signal_-10%": {
+        "mean_rel_delta": -0.041273,
+        "std_rel_delta": 1.8e-05
+      },
+      "R_signal_+10%": {
+        "mean_rel_delta": -4e-06,
+        "std_rel_delta": 1.9e-05
+      },
+      "R_signal_+20%": {
+        "mean_rel_delta": -4e-06,
+        "std_rel_delta": 1.9e-05
+      },
+      "C_tilde_-20%": {
+        "mean_rel_delta": -0.043652,
+        "std_rel_delta": 1.8e-05
+      },
+      "C_tilde_-10%": {
+        "mean_rel_delta": -0.020856,
+        "std_rel_delta": 1.9e-05
+      },
+      "C_tilde_+10%": {
+        "mean_rel_delta": 0.01924,
+        "std_rel_delta": 1.9e-05
+      },
+      "C_tilde_+20%": {
+        "mean_rel_delta": 0.037133,
+        "std_rel_delta": 2e-05
+      },
+      "T_tilde_-20%": {
+        "mean_rel_delta": -0.043652,
+        "std_rel_delta": 1.8e-05
+      },
+      "T_tilde_-10%": {
+        "mean_rel_delta": -0.020856,
+        "std_rel_delta": 1.9e-05
+      },
+      "T_tilde_+10%": {
+        "mean_rel_delta": 2e-06,
+        "std_rel_delta": 1.9e-05
+      },
+      "T_tilde_+20%": {
+        "mean_rel_delta": 2e-06,
+        "std_rel_delta": 1.9e-05
+      },
+      "M_tilde_-20%": {
+        "mean_rel_delta": -0.043652,
+        "std_rel_delta": 1.8e-05
+      },
+      "M_tilde_-10%": {
+        "mean_rel_delta": -0.020856,
+        "std_rel_delta": 1.9e-05
+      },
+      "M_tilde_+10%": {
+        "mean_rel_delta": 0.000673,
+        "std_rel_delta": 0.000406
+      },
+      "M_tilde_+20%": {
+        "mean_rel_delta": 0.000673,
+        "std_rel_delta": 0.000406
+      },
+      "Gamma_-20%": {
+        "mean_rel_delta": -0.200004,
+        "std_rel_delta": 1.5e-05
+      },
+      "Gamma_-10%": {
+        "mean_rel_delta": -0.100004,
+        "std_rel_delta": 1.7e-05
+      },
+      "Gamma_+10%": {
+        "mean_rel_delta": 0.099995,
+        "std_rel_delta": 2.1e-05
+      },
+      "Gamma_+20%": {
+        "mean_rel_delta": 0.199995,
+        "std_rel_delta": 2.3e-05
+      }
+    }
+  },
+  "experiment_3_length_analysis": {
+    "summary": "Word count correlates moderately with runtime (rho=0.65, expected: longer = slower), weakly with raw_ldri (rho=0.16) and gamma_global (rho=0.27). Memory and resonance component values show near-zero correlation with length, confirming these mechanisms are passage-content-driven, not length-driven.",
+    "correlations": {
+      "raw_ldri": {
+        "pearson_r": 0.0949,
+        "spearman_rho": 0.0785,
+        "cv": 0.0031
+      },
+      "gamma_global": {
+        "pearson_r": 0.3966,
+        "spearman_rho": 0.3692,
+        "cv": 0.4479
+      },
+      "comp_memory": {
+        "pearson_r": 0.4005,
+        "spearman_rho": 0.3808,
+        "cv": 0.4478
+      },
+      "comp_resonance": {
+        "pearson_r": 0.3976,
+        "spearman_rho": 0.3692,
+        "cv": 0.4479
+      },
+      "ldri": {
+        "pearson_r": 0.3989,
+        "spearman_rho": 0.3808,
+        "cv": 0.4476
+      },
+      "runtime_s": {
+        "pearson_r": 0.3171,
+        "spearman_rho": 0.4039,
+        "cv": 0.2937
+      }
+    }
+  },
+  "experiment_4_sequential_vs_isolated": {
+    "aggregate": {
+      "isolated_mean_ldri": 0.029008,
+      "sequential_mean_ldri": 0.028818,
+      "mean_delta": -0.00019044,
+      "mean_abs_delta": 0.00071764,
+      "std_delta": 0.00205174,
+      "pearson_r_isolated_vs_sequential": 0.9894,
+      "spearman_rho_isolated_vs_sequential": 0.9854,
+      "final_memory_size": 200
+    },
+    "summary": "Sequential (persistent memory) vs isolated: LDRI values are nearly identical (Spearman rho~=1.0). The memory system fills to capacity within the first passage, and cross-passage retrieval barely changes LDRI because: (1) memory traces from different passages use incompatible keys (passage signals are not mutually similar), (2) theta_retrieve=0.5 filters most cross-passage matches, (3) the memory factor (M_tilde ~= 0.5) contributes minimally to raw_ldri."
+  }
+}

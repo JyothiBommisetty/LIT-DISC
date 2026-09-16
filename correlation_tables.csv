@@ -1,0 +1,73 @@
+# LIT-DISC v1.0.0 -- Correlation Analysis
+# STATUS: Expert ratings have ZERO variance -- all real-expert correlations are undefined
+# Real-expert correlations (all NaN due to zero variance):
+Variable_X,Variable_Y,Method,r,p_value,CI_lo,CI_hi,N,Status
+LDRI,Expert_Overall,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_Overall has zero variance
+LDRI,Expert_Overall,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_Overall has zero variance
+LDRI,Expert_Overall,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_Overall has zero variance
+Feature_semantic,Expert_semantic,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_semantic has zero variance
+Feature_semantic,Expert_semantic,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_semantic has zero variance
+Feature_semantic,Expert_semantic,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_semantic has zero variance
+Feature_narrative,Expert_narrative,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_narrative has zero variance
+Feature_narrative,Expert_narrative,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_narrative has zero variance
+Feature_narrative,Expert_narrative,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_narrative has zero variance
+Feature_interaction,Expert_interaction,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_interaction has zero variance
+Feature_interaction,Expert_interaction,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_interaction has zero variance
+Feature_interaction,Expert_interaction,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_interaction has zero variance
+Feature_symbolic,Expert_symbolic,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_symbolic has zero variance
+Feature_symbolic,Expert_symbolic,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_symbolic has zero variance
+Feature_symbolic,Expert_symbolic,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_symbolic has zero variance
+Feature_evolution,Expert_evolution,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_evolution has zero variance
+Feature_evolution,Expert_evolution,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_evolution has zero variance
+Feature_evolution,Expert_evolution,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_evolution has zero variance
+Feature_emotion,Expert_emotion,Pearson,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_emotion has zero variance
+Feature_emotion,Expert_emotion,Spearman,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_emotion has zero variance
+Feature_emotion,Expert_emotion,Kendall,NaN,NaN,NaN,NaN,25,UNDEFINED: Expert_emotion has zero variance
+LDRI,Feature_semantic,Pearson,0.004887,9.817138e-01,-0.391006,0.399253,25,OK
+LDRI,Feature_semantic,Spearman,0.020769,9.206403e-01,N/A,N/A,25,OK
+LDRI,Feature_semantic,Kendall,-0.020000,9.235715e-01,N/A,N/A,25,OK
+LDRI,Feature_narrative,Pearson,-0.100484,6.362774e-01,-0.476695,0.306836,25,OK
+LDRI,Feature_narrative,Spearman,-0.175385,3.929069e-01,N/A,N/A,25,OK
+LDRI,Feature_narrative,Kendall,-0.100000,6.298065e-01,N/A,N/A,25,OK
+LDRI,Feature_interaction,Pearson,0.144034,4.963083e-01,-0.266257,0.510138,25,OK
+LDRI,Feature_interaction,Spearman,0.035385,8.651635e-01,N/A,N/A,25,OK
+LDRI,Feature_interaction,Kendall,0.026667,8.982009e-01,N/A,N/A,25,OK
+LDRI,Feature_symbolic,Pearson,0.370847,6.777960e-02,-0.028461,0.668086,25,OK
+LDRI,Feature_symbolic,Spearman,0.252308,2.111235e-01,N/A,N/A,25,OK
+LDRI,Feature_symbolic,Kendall,0.153333,4.567791e-01,N/A,N/A,25,OK
+LDRI,Feature_evolution,Pearson,0.366217,7.164904e-02,-0.033813,0.665109,25,OK
+LDRI,Feature_evolution,Spearman,0.177692,3.865103e-01,N/A,N/A,25,OK
+LDRI,Feature_evolution,Kendall,0.093333,6.530181e-01,N/A,N/A,25,OK
+LDRI,Feature_emotion,Pearson,0.490517,1.181775e-02,0.118311,0.741865,25,OK
+LDRI,Feature_emotion,Spearman,0.450769,1.544306e-02,N/A,N/A,25,OK
+LDRI,Feature_emotion,Kendall,0.326667,9.740360e-02,N/A,N/A,25,OK
+LDRI,Component_intrinsic,Pearson,0.999959,0.000000e+00,0.999905,0.999982,25,OK
+LDRI,Component_intrinsic,Spearman,0.999231,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_intrinsic,Kendall,0.993333,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_interaction,Pearson,0.996873,0.000000e+00,0.992803,0.998643,25,OK
+LDRI,Component_interaction,Spearman,0.997692,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_interaction,Kendall,0.986667,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_temporal,Pearson,0.999959,0.000000e+00,0.999906,0.999982,25,OK
+LDRI,Component_temporal,Spearman,0.999231,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_temporal,Kendall,0.993333,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_resonance,Pearson,0.999957,0.000000e+00,0.999900,0.999981,25,OK
+LDRI,Component_resonance,Spearman,0.999231,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_resonance,Kendall,0.993333,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_memory,Pearson,0.999982,0.000000e+00,0.999958,0.999992,25,OK
+LDRI,Component_memory,Spearman,1.000000,nan,N/A,N/A,25,OK
+LDRI,Component_memory,Kendall,1.000000,nan,N/A,N/A,25,OK
+LDRI,Component_uncertainty,Pearson,-0.976677,0.000000e+00,-0.989821,-0.947013,25,OK
+LDRI,Component_uncertainty,Spearman,-0.980000,0.000000e+00,N/A,N/A,25,OK
+LDRI,Component_uncertainty,Kendall,-0.906667,0.000000e+00,N/A,N/A,25,OK
+
+# Simulated-expert demonstration (with random 1-7 scores):
+Variable_X,Variable_Y,Method,r,p_value,CI_lo,CI_hi,Status
+Simulated_Expert_Overall,LDRI,Pearson,-0.1078,0.6117,-0.4824,0.3001,OK (simulated)
+Simulated_Expert_Overall,LDRI,Spearman,-0.0973,0.6390,N/A,N/A,OK (simulated)
+Simulated_Expert_Overall,LDRI,Kendall,-0.0891,NaN,N/A,N/A,OK (simulated)
+Feature_semantic,Sim_Expert_semantic,Pearson,-0.0333,0.8757,-0.4229,0.3666,OK (simulated)
+Feature_narrative,Sim_Expert_narrative,Pearson,-0.2372,0.2568,-0.5781,0.1743,OK (simulated)
+Feature_interaction,Sim_Expert_interaction,Pearson,-0.0452,0.8319,-0.4326,0.3563,OK (simulated)
+Feature_symbolic,Sim_Expert_symbolic,Pearson,0.0200,0.9253,-0.3781,0.4119,OK (simulated)
+Feature_evolution,Sim_Expert_evolution,Pearson,-0.2288,0.2746,-0.5722,0.1829,OK (simulated)
+Feature_emotion,Sim_Expert_emotion,Pearson,0.1473,0.4866,-0.2632,0.5126,OK (simulated)

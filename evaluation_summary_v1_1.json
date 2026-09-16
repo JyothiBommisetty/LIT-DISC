@@ -1,0 +1,35 @@
+{
+  "version": "v1.1",
+  "date": "2026-07-29",
+  "implementation_change": "sigma_max: 0.1 -> 5.0 in LDRIParams (src/config.py:59)",
+  "verification": {
+    "tests_pass": 116,
+    "tests_fail": 1,
+    "fail_reason": "Performance: warm call 0.674s > 0.5s threshold (machine-dependent, pre-existing)"
+  },
+  "gold_standard": {
+    "passages": 25,
+    "runtime_s": 5.23,
+    "ldri_mean": 0.027691,
+    "ldri_std": 0.013266,
+    "raw_ldri_mean": 0.912766,
+    "raw_ldri_cv": 0.0263,
+    "gamma_mean": 0.030216
+  },
+  "improvements_over_v1_0": {
+    "saturation_reduction": "99% -> 4%",
+    "raw_ldri_cv_increase_x": 8.4,
+    "raw_ldri_variance_increase_x": 63.7,
+    "gamma_dominance_change_pp": -3.8,
+    "author_ranking_spearman": 0.9823,
+    "category_ranking_preserved": false
+  },
+  "regressions": {
+    "has_regressions": false,
+    "component_changes_gt_5pct": [
+      "intrinsic"
+    ],
+    "explanation": "Intrinsic component drops 86% because it measures R_signal richness which is no longer saturated"
+  },
+  "reproducibility": "Deterministic — all 25 passages produce identical results on re-run (verified)"
+}

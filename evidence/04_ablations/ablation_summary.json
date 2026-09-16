@@ -1,0 +1,62 @@
+{
+  "full_pipeline": {
+    "mean_ldri": 0.027691,
+    "std_ldri": 0.013266,
+    "mean_runtime_s": 0.209
+  },
+  "Without Memory": {
+    "mean_ldri": 0.026373,
+    "std_ldri": 0.012647,
+    "mean_runtime_s": 0.166,
+    "mean_delta_ldri": -0.001317,
+    "mean_abs_delta_ldri": 0.001337,
+    "max_abs_delta_ldri": 0.003777,
+    "max_delta_passage": "SNC-04",
+    "mean_raw_ldri": 0.866395,
+    "mean_gamma_global": 0.030348
+  },
+  "Without Resonance": {
+    "mean_ldri": 0.026138,
+    "std_ldri": 0.013342,
+    "mean_runtime_s": 0.225,
+    "mean_delta_ldri": -0.001553,
+    "mean_abs_delta_ldri": 0.001553,
+    "max_abs_delta_ldri": 0.008926,
+    "max_delta_passage": "NWC-04",
+    "mean_raw_ldri": 0.872924,
+    "mean_gamma_global": 0.029705
+  },
+  "Without Adaptive Coupling": {
+    "mean_ldri": 0.029177,
+    "std_ldri": 0.013952,
+    "mean_runtime_s": 0.141,
+    "mean_delta_ldri": 0.001486,
+    "mean_abs_delta_ldri": 0.001486,
+    "max_abs_delta_ldri": 0.004097,
+    "max_delta_passage": "SNC-03",
+    "mean_raw_ldri": 0.956959,
+    "mean_gamma_global": 0.030404
+  },
+  "Without Uncertainty": {
+    "mean_ldri": 0.912645,
+    "std_ldri": 0.023213,
+    "mean_runtime_s": 0.212,
+    "mean_delta_ldri": 0.884954,
+    "mean_abs_delta_ldri": 0.884954,
+    "max_abs_delta_ldri": 0.920003,
+    "max_delta_passage": "SSC-04",
+    "mean_raw_ldri": 0.912645,
+    "mean_gamma_global": 1.0
+  },
+  "Without Narrative Signals": {
+    "mean_ldri": 0.039337,
+    "std_ldri": 0.016965,
+    "mean_runtime_s": 0.162,
+    "mean_delta_ldri": 0.011646,
+    "mean_abs_delta_ldri": 0.011646,
+    "max_abs_delta_ldri": 0.020622,
+    "max_delta_passage": "SNC-02",
+    "mean_raw_ldri": 0.863649,
+    "mean_gamma_global": 0.045366
+  }
+}

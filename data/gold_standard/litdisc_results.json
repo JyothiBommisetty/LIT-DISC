@@ -4,18 +4,18 @@
     "author": "Jane Austen",
     "title": "Pride and Prejudice",
     "category": "SNC",
-    "word_count": 323,
-    "runtime_s": 0.97,
-    "ldri": 0.033726,
-    "raw_ldri": 0.959703,
+    "word_count": 386,
+    "runtime_s": 0.26,
+    "ldri": 0.033024,
+    "raw_ldri": 0.939749,
     "gamma_global": 0.035142,
     "components": {
-      "intrinsic": 0.333411,
-      "interaction": 0.003439,
+      "intrinsic": 0.054231,
+      "interaction": 0.00331,
       "temporal": 0.004872,
       "resonance": 0.00026,
-      "memory": 0.004859,
-      "uncertainty": 0.925977
+      "memory": 0.004844,
+      "uncertainty": 0.906724
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -35,26 +35,26 @@
       "evolution": 3.581,
       "emotion": 3.0769
     },
-    "sentences": 15,
-    "words": 0
+    "sentences": 38,
+    "words": 386
   },
   {
     "passage_id": "SNC-02",
     "author": "Charles Dickens",
     "title": "Great Expectations",
     "category": "SNC",
-    "word_count": 312,
-    "runtime_s": 1.08,
-    "ldri": 0.051666,
-    "raw_ldri": 0.957251,
+    "word_count": 306,
+    "runtime_s": 0.28,
+    "ldri": 0.051084,
+    "raw_ldri": 0.946462,
     "gamma_global": 0.053974,
     "components": {
-      "intrinsic": 0.512082,
-      "interaction": 0.005134,
+      "intrinsic": 0.095205,
+      "interaction": 0.005062,
       "temporal": 0.007482,
       "resonance": 0.000399,
-      "memory": 0.007473,
-      "uncertainty": 0.905584
+      "memory": 0.007458,
+      "uncertainty": 0.895378
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -74,26 +74,26 @@
       "evolution": 3.3402,
       "emotion": 3.1637
     },
-    "sentences": 14,
-    "words": 0
+    "sentences": 18,
+    "words": 306
   },
   {
     "passage_id": "SNC-03",
     "author": "Fyodor Dostoevsky",
     "title": "Crime and Punishment",
     "category": "SNC",
-    "word_count": 310,
-    "runtime_s": 1.08,
-    "ldri": 0.042964,
-    "raw_ldri": 0.954878,
-    "gamma_global": 0.044994,
+    "word_count": 238,
+    "runtime_s": 0.33,
+    "ldri": 0.040387,
+    "raw_ldri": 0.953008,
+    "gamma_global": 0.042378,
     "components": {
-      "intrinsic": 0.426885,
-      "interaction": 0.004187,
-      "temporal": 0.006237,
-      "resonance": 0.000333,
-      "memory": 0.00621,
-      "uncertainty": 0.911914
+      "intrinsic": 0.092392,
+      "interaction": 0.004032,
+      "temporal": 0.005875,
+      "resonance": 0.000314,
+      "memory": 0.005824,
+      "uncertainty": 0.912621
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -113,26 +113,26 @@
       "evolution": 4.724,
       "emotion": 3.5451
     },
-    "sentences": 15,
-    "words": 0
+    "sentences": 8,
+    "words": 238
   },
   {
     "passage_id": "SNC-04",
     "author": "Virginia Woolf",
     "title": "To the Lighthouse",
     "category": "SNC",
-    "word_count": 305,
-    "runtime_s": 0.81,
-    "ldri": 0.056198,
-    "raw_ldri": 0.960636,
+    "word_count": 228,
+    "runtime_s": 0.19,
+    "ldri": 0.055076,
+    "raw_ldri": 0.941464,
     "gamma_global": 0.0585,
     "components": {
-      "intrinsic": 0.555028,
-      "interaction": 0.00578,
+      "intrinsic": 0.08929,
+      "interaction": 0.005659,
       "temporal": 0.00811,
       "resonance": 0.000433,
-      "memory": 0.008091,
-      "uncertainty": 0.904439
+      "memory": 0.008063,
+      "uncertainty": 0.886388
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -152,26 +152,26 @@
       "evolution": 3.4713,
       "emotion": 3.3873
     },
-    "sentences": 9,
-    "words": 0
+    "sentences": 6,
+    "words": 228
   },
   {
     "passage_id": "SNC-05",
     "author": "Ernest Hemingway",
     "title": "The Sun Also Rises",
     "category": "SNC",
-    "word_count": 268,
-    "runtime_s": 1.23,
-    "ldri": 0.022622,
-    "raw_ldri": 0.952359,
+    "word_count": 188,
+    "runtime_s": 0.31,
+    "ldri": 0.022164,
+    "raw_ldri": 0.933072,
     "gamma_global": 0.023754,
     "components": {
-      "intrinsic": 0.225369,
-      "interaction": 0.002138,
+      "intrinsic": 0.034914,
+      "interaction": 0.00214,
       "temporal": 0.003293,
       "resonance": 0.000176,
-      "memory": 0.003288,
-      "uncertainty": 0.929737
+      "memory": 0.003282,
+      "uncertainty": 0.910908
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -191,26 +191,26 @@
       "evolution": 2.9836,
       "emotion": 2.6426
     },
-    "sentences": 19,
-    "words": 0
+    "sentences": 28,
+    "words": 188
   },
   {
     "passage_id": "MNC-01",
     "author": "Hilary Mantel",
     "title": "Wolf Hall",
     "category": "MNC",
-    "word_count": 189,
-    "runtime_s": 0.89,
-    "ldri": 0.009244,
-    "raw_ldri": 0.960039,
+    "word_count": 178,
+    "runtime_s": 0.21,
+    "ldri": 0.008766,
+    "raw_ldri": 0.910415,
     "gamma_global": 0.009629,
     "components": {
-      "intrinsic": 0.091352,
-      "interaction": 0.000947,
+      "intrinsic": 0.010918,
+      "interaction": 0.000897,
       "temporal": 0.001335,
       "resonance": 7.1e-05,
-      "memory": 0.00133,
-      "uncertainty": 0.950795
+      "memory": 0.001322,
+      "uncertainty": 0.901649
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -230,26 +230,26 @@
       "evolution": 3.1094,
       "emotion": 2.6794
     },
-    "sentences": 14,
-    "words": 0
+    "sentences": 4,
+    "words": 178
   },
   {
     "passage_id": "MNC-02",
     "author": "George Saunders",
     "title": "Lincoln in the Bardo",
     "category": "MNC",
-    "word_count": 203,
-    "runtime_s": 0.56,
-    "ldri": 0.029426,
-    "raw_ldri": 0.956363,
+    "word_count": 178,
+    "runtime_s": 0.16,
+    "ldri": 0.027643,
+    "raw_ldri": 0.898402,
     "gamma_global": 0.030769,
     "components": {
-      "intrinsic": 0.29192,
-      "interaction": 0.002926,
+      "intrinsic": 0.031972,
+      "interaction": 0.00287,
       "temporal": 0.004265,
       "resonance": 0.000228,
-      "memory": 0.004232,
-      "uncertainty": 0.926937
+      "memory": 0.0042,
+      "uncertainty": 0.870759
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -269,26 +269,26 @@
       "evolution": 2.6911,
       "emotion": 2.202
     },
-    "sentences": 9,
-    "words": 0
+    "sentences": 2,
+    "words": 178
   },
   {
     "passage_id": "MNC-03",
     "author": "Kazuo Ishiguro",
     "title": "Never Let Me Go",
     "category": "MNC",
-    "word_count": 198,
-    "runtime_s": 0.72,
-    "ldri": 0.023631,
-    "raw_ldri": 0.957694,
-    "gamma_global": 0.024675,
+    "word_count": 189,
+    "runtime_s": 0.17,
+    "ldri": 0.014893,
+    "raw_ldri": 0.871824,
+    "gamma_global": 0.017083,
     "components": {
-      "intrinsic": 0.234105,
-      "interaction": 0.002378,
-      "temporal": 0.003421,
-      "resonance": 0.000183,
-      "memory": 0.003397,
-      "uncertainty": 0.934063
+      "intrinsic": 0.016204,
+      "interaction": 0.001345,
+      "temporal": 0.002368,
+      "resonance": 0.000126,
+      "memory": 0.002327,
+      "uncertainty": 0.856931
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -308,26 +308,26 @@
       "evolution": 2.8629,
       "emotion": 2.4277
     },
-    "sentences": 11,
-    "words": 0
+    "sentences": 2,
+    "words": 189
   },
   {
     "passage_id": "MNC-04",
     "author": "Margaret Atwood",
     "title": "The Blind Assassin",
     "category": "MNC",
-    "word_count": 218,
-    "runtime_s": 0.79,
-    "ldri": 0.022927,
-    "raw_ldri": 0.95607,
+    "word_count": 186,
+    "runtime_s": 0.18,
+    "ldri": 0.021166,
+    "raw_ldri": 0.882613,
     "gamma_global": 0.023981,
     "components": {
-      "intrinsic": 0.227519,
-      "interaction": 0.002262,
+      "intrinsic": 0.023809,
+      "interaction": 0.001986,
       "temporal": 0.003324,
       "resonance": 0.000177,
-      "memory": 0.00331,
-      "uncertainty": 0.933143
+      "memory": 0.003276,
+      "uncertainty": 0.861447
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -347,26 +347,26 @@
       "evolution": 2.8081,
       "emotion": 1.9325
     },
-    "sentences": 11,
-    "words": 0
+    "sentences": 2,
+    "words": 186
   },
   {
     "passage_id": "MNC-05",
     "author": "Elena Ferrante",
     "title": "My Brilliant Friend",
     "category": "MNC",
-    "word_count": 212,
-    "runtime_s": 0.71,
-    "ldri": 0.024242,
-    "raw_ldri": 0.957035,
-    "gamma_global": 0.025331,
+    "word_count": 178,
+    "runtime_s": 0.17,
+    "ldri": 0.021603,
+    "raw_ldri": 0.864503,
+    "gamma_global": 0.024989,
     "components": {
-      "intrinsic": 0.240328,
-      "interaction": 0.002422,
-      "temporal": 0.003512,
-      "resonance": 0.000187,
-      "memory": 0.003489,
-      "uncertainty": 0.932793
+      "intrinsic": 0.022517,
+      "interaction": 0.00198,
+      "temporal": 0.003464,
+      "resonance": 0.000185,
+      "memory": 0.003419,
+      "uncertainty": 0.8429
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -386,26 +386,26 @@
       "evolution": 2.6749,
       "emotion": 1.9329
     },
-    "sentences": 11,
-    "words": 0
+    "sentences": 2,
+    "words": 178
   },
   {
     "passage_id": "SSC-01",
     "author": "Anton Chekhov",
     "title": "The Lady with the Dog",
     "category": "SSC",
-    "word_count": 311,
-    "runtime_s": 0.99,
-    "ldri": 0.028285,
-    "raw_ldri": 0.957678,
+    "word_count": 199,
+    "runtime_s": 0.21,
+    "ldri": 0.027474,
+    "raw_ldri": 0.930221,
     "gamma_global": 0.029535,
     "components": {
-      "intrinsic": 0.280214,
-      "interaction": 0.002834,
+      "intrinsic": 0.039917,
+      "interaction": 0.002786,
       "temporal": 0.004094,
       "resonance": 0.000219,
-      "memory": 0.004077,
-      "uncertainty": 0.929393
+      "memory": 0.004072,
+      "uncertainty": 0.902747
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -425,26 +425,26 @@
       "evolution": 3.083,
       "emotion": 2.1851
     },
-    "sentences": 13,
-    "words": 0
+    "sentences": 4,
+    "words": 199
   },
   {
     "passage_id": "SSC-02",
     "author": "James Joyce",
     "title": "The Dead",
     "category": "SSC",
-    "word_count": 166,
-    "runtime_s": 0.62,
-    "ldri": 0.02985,
-    "raw_ldri": 0.950301,
-    "gamma_global": 0.031411,
+    "word_count": 160,
+    "runtime_s": 0.15,
+    "ldri": 0.029728,
+    "raw_ldri": 0.921545,
+    "gamma_global": 0.032259,
     "components": {
-      "intrinsic": 0.298011,
-      "interaction": 0.002812,
-      "temporal": 0.004354,
-      "resonance": 0.000232,
-      "memory": 0.004296,
-      "uncertainty": 0.920452
+      "intrinsic": 0.041221,
+      "interaction": 0.002973,
+      "temporal": 0.004472,
+      "resonance": 0.000239,
+      "memory": 0.004393,
+      "uncertainty": 0.891817
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -464,26 +464,26 @@
       "evolution": 2.1615,
       "emotion": 1.6483
     },
-    "sentences": 9,
-    "words": 0
+    "sentences": 2,
+    "words": 160
   },
   {
     "passage_id": "SSC-03",
     "author": "Jorge Luis Borges",
     "title": "The Garden of Forking Paths",
     "category": "SSC",
-    "word_count": 264,
-    "runtime_s": 0.8,
-    "ldri": 0.017859,
-    "raw_ldri": 0.952421,
+    "word_count": 193,
+    "runtime_s": 0.19,
+    "ldri": 0.016506,
+    "raw_ldri": 0.880253,
     "gamma_global": 0.018751,
     "components": {
-      "intrinsic": 0.177903,
-      "interaction": 0.001699,
+      "intrinsic": 0.018845,
+      "interaction": 0.001463,
       "temporal": 0.002599,
       "resonance": 0.000139,
-      "memory": 0.002586,
-      "uncertainty": 0.934562
+      "memory": 0.002563,
+      "uncertainty": 0.863747
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -503,26 +503,26 @@
       "evolution": 2.6526,
       "emotion": 1.9116
     },
-    "sentences": 14,
-    "words": 0
+    "sentences": 2,
+    "words": 193
   },
   {
     "passage_id": "SSC-04",
     "author": "Alice Munro",
     "title": "The Bear Came Over the Mountain",
     "category": "SSC",
-    "word_count": 275,
-    "runtime_s": 1.06,
-    "ldri": 0.015205,
-    "raw_ldri": 0.959365,
+    "word_count": 188,
+    "runtime_s": 0.25,
+    "ldri": 0.014817,
+    "raw_ldri": 0.934882,
     "gamma_global": 0.015849,
     "components": {
-      "intrinsic": 0.150365,
-      "interaction": 0.001549,
+      "intrinsic": 0.022745,
+      "interaction": 0.001499,
       "temporal": 0.002197,
       "resonance": 0.000117,
-      "memory": 0.002188,
-      "uncertainty": 0.94416
+      "memory": 0.002179,
+      "uncertainty": 0.920065
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -542,26 +542,26 @@
       "evolution": 3.1483,
       "emotion": 2.9676
     },
-    "sentences": 19,
-    "words": 0
+    "sentences": 2,
+    "words": 188
   },
   {
     "passage_id": "SSC-05",
     "author": "Raymond Carver",
     "title": "Cathedral",
     "category": "SSC",
-    "word_count": 301,
-    "runtime_s": 1.26,
-    "ldri": 0.010265,
-    "raw_ldri": 0.954322,
+    "word_count": 202,
+    "runtime_s": 0.32,
+    "ldri": 0.009777,
+    "raw_ldri": 0.908942,
     "gamma_global": 0.010756,
     "components": {
-      "intrinsic": 0.102051,
-      "interaction": 0.000992,
+      "intrinsic": 0.012959,
+      "interaction": 0.000893,
       "temporal": 0.001491,
       "resonance": 8e-05,
-      "memory": 0.001488,
-      "uncertainty": 0.944057
+      "memory": 0.001486,
+      "uncertainty": 0.899165
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -581,26 +581,26 @@
       "evolution": 2.4997,
       "emotion": 1.7981
     },
-    "sentences": 26,
-    "words": 0
+    "sentences": 2,
+    "words": 202
   },
   {
     "passage_id": "MLC-01",
     "author": "Gustave Flaubert",
     "title": "Madame Bovary",
     "category": "MLC",
-    "word_count": 186,
-    "runtime_s": 0.95,
-    "ldri": 0.016222,
-    "raw_ldri": 0.959069,
+    "word_count": 182,
+    "runtime_s": 0.23,
+    "ldri": 0.015696,
+    "raw_ldri": 0.927966,
     "gamma_global": 0.016914,
     "components": {
-      "intrinsic": 0.160477,
-      "interaction": 0.00165,
+      "intrinsic": 0.022756,
+      "interaction": 0.001572,
       "temporal": 0.002345,
       "resonance": 0.000125,
-      "memory": 0.002333,
-      "uncertainty": 0.942847
+      "memory": 0.002321,
+      "uncertainty": 0.91227
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -620,26 +620,26 @@
       "evolution": 3.0035,
       "emotion": 3.0623
     },
-    "sentences": 17,
-    "words": 0
+    "sentences": 2,
+    "words": 182
   },
   {
     "passage_id": "MLC-02",
     "author": "Marcel Proust",
     "title": "Swann's Way",
     "category": "MLC",
-    "word_count": 248,
-    "runtime_s": 0.23,
-    "ldri": 0.049875,
-    "raw_ldri": 0.948549,
-    "gamma_global": 0.05258,
+    "word_count": 185,
+    "runtime_s": 0.12,
+    "ldri": 0.052198,
+    "raw_ldri": 0.885082,
+    "gamma_global": 0.058975,
     "components": {
-      "intrinsic": 0.498859,
-      "interaction": 0.00458,
-      "temporal": 0.007289,
-      "resonance": 0.000389,
-      "memory": 0.007221,
-      "uncertainty": 0.898674
+      "intrinsic": 0.059474,
+      "interaction": 0.004905,
+      "temporal": 0.008176,
+      "resonance": 0.000436,
+      "memory": 0.008047,
+      "uncertainty": 0.832884
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -659,26 +659,26 @@
       "evolution": 3.6205,
       "emotion": 2.7117
     },
-    "sentences": 6,
-    "words": 0
+    "sentences": 2,
+    "words": 185
   },
   {
     "passage_id": "MLC-03",
     "author": "Franz Kafka",
     "title": "The Metamorphosis",
     "category": "MLC",
-    "word_count": 302,
-    "runtime_s": 0.55,
-    "ldri": 0.043723,
-    "raw_ldri": 0.954397,
+    "word_count": 189,
+    "runtime_s": 0.16,
+    "ldri": 0.042274,
+    "raw_ldri": 0.922776,
     "gamma_global": 0.045812,
     "components": {
-      "intrinsic": 0.434644,
-      "interaction": 0.004256,
+      "intrinsic": 0.057242,
+      "interaction": 0.004343,
       "temporal": 0.006351,
       "resonance": 0.000339,
-      "memory": 0.006307,
-      "uncertainty": 0.910674
+      "memory": 0.00629,
+      "uncertainty": 0.880502
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -698,26 +698,26 @@
       "evolution": 2.4635,
       "emotion": 2.5381
     },
-    "sentences": 8,
-    "words": 0
+    "sentences": 4,
+    "words": 189
   },
   {
     "passage_id": "MLC-04",
     "author": "Leo Tolstoy",
     "title": "Anna Karenina",
     "category": "MLC",
-    "word_count": 285,
-    "runtime_s": 0.71,
-    "ldri": 0.020249,
-    "raw_ldri": 0.95574,
+    "word_count": 208,
+    "runtime_s": 0.14,
+    "ldri": 0.019039,
+    "raw_ldri": 0.898608,
     "gamma_global": 0.021187,
     "components": {
-      "intrinsic": 0.201013,
-      "interaction": 0.001986,
+      "intrinsic": 0.021938,
+      "interaction": 0.001973,
       "temporal": 0.002937,
       "resonance": 0.000157,
-      "memory": 0.002929,
-      "uncertainty": 0.935491
+      "memory": 0.002912,
+      "uncertainty": 0.879569
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -737,26 +737,26 @@
       "evolution": 2.7647,
       "emotion": 2.6564
     },
-    "sentences": 7,
-    "words": 0
+    "sentences": 4,
+    "words": 208
   },
   {
     "passage_id": "MLC-05",
     "author": "Gabriel Garcia Marquez",
     "title": "One Hundred Years of Solitude",
     "category": "MLC",
-    "word_count": 244,
-    "runtime_s": 0.55,
-    "ldri": 0.037878,
-    "raw_ldri": 0.956487,
+    "word_count": 184,
+    "runtime_s": 0.14,
+    "ldri": 0.035847,
+    "raw_ldri": 0.905208,
     "gamma_global": 0.039601,
     "components": {
-      "intrinsic": 0.375718,
-      "interaction": 0.003759,
+      "intrinsic": 0.043089,
+      "interaction": 0.003721,
       "temporal": 0.00549,
       "resonance": 0.000293,
-      "memory": 0.005459,
-      "uncertainty": 0.918609
+      "memory": 0.005404,
+      "uncertainty": 0.869361
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -776,26 +776,26 @@
       "evolution": 2.4385,
       "emotion": 2.4077
     },
-    "sentences": 7,
-    "words": 0
+    "sentences": 2,
+    "words": 184
   },
   {
     "passage_id": "NWC-01",
     "author": "Murasaki Shikibu",
     "title": "The Tale of Genji",
     "category": "NWC",
-    "word_count": 259,
-    "runtime_s": 0.95,
-    "ldri": 0.030495,
-    "raw_ldri": 0.956577,
+    "word_count": 189,
+    "runtime_s": 0.19,
+    "ldri": 0.029048,
+    "raw_ldri": 0.911192,
     "gamma_global": 0.031879,
     "components": {
-      "intrinsic": 0.302453,
-      "interaction": 0.003018,
+      "intrinsic": 0.036427,
+      "interaction": 0.002951,
       "temporal": 0.004419,
       "resonance": 0.000236,
-      "memory": 0.004405,
-      "uncertainty": 0.926082
+      "memory": 0.00439,
+      "uncertainty": 0.882144
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -815,26 +815,26 @@
       "evolution": 2.9149,
       "emotion": 2.6992
     },
-    "sentences": 11,
-    "words": 0
+    "sentences": 4,
+    "words": 189
   },
   {
     "passage_id": "NWC-02",
     "author": "Lu Xun",
     "title": "The True Story of Ah Q",
     "category": "NWC",
-    "word_count": 270,
-    "runtime_s": 0.97,
-    "ldri": 0.02986,
-    "raw_ldri": 0.958178,
+    "word_count": 175,
+    "runtime_s": 0.22,
+    "ldri": 0.028958,
+    "raw_ldri": 0.929243,
     "gamma_global": 0.031163,
     "components": {
-      "intrinsic": 0.295662,
-      "interaction": 0.003,
+      "intrinsic": 0.042482,
+      "interaction": 0.00291,
       "temporal": 0.00432,
       "resonance": 0.000231,
-      "memory": 0.004309,
-      "uncertainty": 0.928318
+      "memory": 0.004269,
+      "uncertainty": 0.900285
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -854,26 +854,26 @@
       "evolution": 2.9967,
       "emotion": 2.7088
     },
-    "sentences": 12,
-    "words": 0
+    "sentences": 4,
+    "words": 175
   },
   {
     "passage_id": "NWC-03",
     "author": "Naguib Mahfouz",
     "title": "Midaq Alley",
     "category": "NWC",
-    "word_count": 256,
-    "runtime_s": 0.71,
-    "ldri": 0.040819,
-    "raw_ldri": 0.952953,
+    "word_count": 176,
+    "runtime_s": 0.17,
+    "ldri": 0.038998,
+    "raw_ldri": 0.910441,
     "gamma_global": 0.042834,
     "components": {
-      "intrinsic": 0.406393,
-      "interaction": 0.003933,
+      "intrinsic": 0.048527,
+      "interaction": 0.004019,
       "temporal": 0.005938,
       "resonance": 0.000317,
-      "memory": 0.005879,
-      "uncertainty": 0.912134
+      "memory": 0.005858,
+      "uncertainty": 0.871443
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -893,26 +893,26 @@
       "evolution": 2.6061,
       "emotion": 2.7351
     },
-    "sentences": 8,
-    "words": 0
+    "sentences": 4,
+    "words": 176
   },
   {
     "passage_id": "NWC-04",
     "author": "Arundhati Roy",
     "title": "The God of Small Things",
     "category": "NWC",
-    "word_count": 199,
-    "runtime_s": 0.97,
-    "ldri": 0.025109,
-    "raw_ldri": 0.956595,
+    "word_count": 160,
+    "runtime_s": 0.22,
+    "ldri": 0.024092,
+    "raw_ldri": 0.917835,
     "gamma_global": 0.026248,
     "components": {
-      "intrinsic": 0.249035,
-      "interaction": 0.002482,
+      "intrinsic": 0.031418,
+      "interaction": 0.002468,
       "temporal": 0.003639,
       "resonance": 0.000194,
-      "memory": 0.003631,
-      "uncertainty": 0.931486
+      "memory": 0.003613,
+      "uncertainty": 0.893743
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -932,26 +932,26 @@
       "evolution": 2.7913,
       "emotion": 2.7959
     },
-    "sentences": 12,
-    "words": 0
+    "sentences": 4,
+    "words": 160
   },
   {
     "passage_id": "NWC-05",
     "author": "Salman Rushdie",
     "title": "Midnight's Children",
     "category": "NWC",
-    "word_count": 245,
-    "runtime_s": 1.29,
-    "ldri": 0.012864,
-    "raw_ldri": 0.956839,
+    "word_count": 172,
+    "runtime_s": 0.26,
+    "ldri": 0.012012,
+    "raw_ldri": 0.893443,
     "gamma_global": 0.013444,
     "components": {
-      "intrinsic": 0.127553,
-      "interaction": 0.001278,
+      "intrinsic": 0.013418,
+      "interaction": 0.001262,
       "temporal": 0.001864,
       "resonance": 9.9e-05,
-      "memory": 0.001856,
-      "uncertainty": 0.943975
+      "memory": 0.00184,
+      "uncertainty": 0.881432
     },
     "dimension_scores": {},
     "expert_scores": {
@@ -971,7 +971,7 @@
       "evolution": 2.931,
       "emotion": 1.9708
     },
-    "sentences": 18,
-    "words": 0
+    "sentences": 2,
+    "words": 172
   }
 ]

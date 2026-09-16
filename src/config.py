@@ -56,7 +56,7 @@ class LDRIParams:
     beta: float = 1.0
     gamma: float = 1.0
     delta: float = 1.0
-    sigma_max: float = 0.1
+    sigma_max: float = 5.0
     bootstrap_samples: int = 100
 
 

@@ -1,0 +1,815 @@
+{
+  "config": {
+    "sigma_max_old": 0.1,
+    "sigma_max_new": 5.0,
+    "total_passages": 25,
+    "pipeline_config": "LITDISCConfig(ldri=replace(LITDISCConfig().ldri, sigma_max=5.0))",
+    "no_source_modifications": true
+  },
+  "summary": {
+    "activation_saturation_old": "100% (all activations = 1.0)",
+    "activation_saturation_new": "0% (mean a = 0.8947, CV = 0.1328)",
+    "raw_ldri_cv_old": 0.0031,
+    "raw_ldri_cv_new": 0.0263,
+    "ldri_cv_old": 0.4476,
+    "ldri_cv_new": 0.4788,
+    "gamma_dominance_old": 100.3,
+    "gamma_dominance_new": 96.5,
+    "raw_dominance_old": 0.0,
+    "raw_dominance_new": 0.3,
+    "category_ranking_old": [
+      "SNC",
+      "MLC",
+      "NWC",
+      "MNC",
+      "SSC"
+    ],
+    "category_ranking_new": [
+      "SNC",
+      "MLC",
+      "NWC",
+      "SSC",
+      "MNC"
+    ],
+    "author_ranking_spearman": 0.9823,
+    "mean_runtime_old": 0.858,
+    "mean_runtime_new": 0.379
+  },
+  "passages": [
+    {
+      "passage_id": "MLC-01",
+      "ldri": 0.015694689647648242,
+      "raw_ldri": 0.9278888337014888,
+      "gamma_global": 0.016914407284156826,
+      "runtime_s": 0.203,
+      "components": {
+        "intrinsic": 0.022737969596276775,
+        "interaction": 0.0015721037040525895,
+        "temporal": 0.002344834743971181,
+        "resonance": 0.00012514532404289146,
+        "memory": 0.002321497118628698,
+        "uncertainty": 0.9121941440538406
+      },
+      "feature_norms": {
+        "semantic": 14.448572086065251,
+        "narrative": 13.22877944547399,
+        "interaction": 10.86628548488399,
+        "symbolic": 10.12805369205543,
+        "evolution": 11.297437331431935,
+        "emotion": 11.827251124986137
+      },
+      "activations": {
+        "semantic": 0.9846282628627177,
+        "narrative": 0.9698029823364386,
+        "interaction": 0.9057234886599206,
+        "symbolic": 0.8714644079137536,
+        "evolution": 0.9221243383149724,
+        "emotion": 0.9390485347696741
+      }
+    },
+    {
+      "passage_id": "MLC-02",
+      "ldri": 0.052198062558246994,
+      "raw_ldri": 0.8850832678254889,
+      "gamma_global": 0.05897531278214023,
+      "runtime_s": 0.11,
+      "components": {
+        "intrinsic": 0.05947544124879263,
+        "interaction": 0.004905105330526786,
+        "temporal": 0.00817571435551628,
+        "resonance": 0.0004363430834236135,
+        "memory": 0.008046740476691414,
+        "uncertainty": 0.8328852052672419
+      },
+      "feature_norms": {
+        "semantic": 11.73690613235094,
+        "narrative": 10.441560905257708,
+        "interaction": 9.926889522736941,
+        "symbolic": 7.949904530148068,
+        "evolution": 11.262185058494158,
+        "emotion": 8.469765734837363
+      },
+      "activations": {
+        "semantic": 0.9363972971051469,
+        "narrative": 0.8870176743594892,
+        "interaction": 0.8606634029968858,
+        "symbolic": 0.7174838722852378,
+        "evolution": 0.9208757791651675,
+        "emotion": 0.7618223921293378
+      }
+    },
+    {
+      "passage_id": "MLC-03",
+      "ldri": 0.04227393061484106,
+      "raw_ldri": 0.9227737667532959,
+      "gamma_global": 0.045811803648881814,
+      "runtime_s": 0.146,
+      "components": {
+        "intrinsic": 0.057240579990730005,
+        "interaction": 0.0043432497037706064,
+        "temporal": 0.006350864507117649,
+        "resonance": 0.0003389496845094106,
+        "memory": 0.006289961903914342,
+        "uncertainty": 0.8804998361384548
+      },
+      "feature_norms": {
+        "semantic": 13.863937714780736,
+        "narrative": 11.714629608925081,
+        "interaction": 10.472333485526287,
+        "symbolic": 10.693390507974408,
+        "evolution": 11.089064169468568,
+        "emotion": 10.191188321066782
+      },
+      "activations": {
+        "semantic": 0.9785959554936173,
+        "narrative": 0.9357292684674434,
+        "interaction": 0.8884626060593561,
+        "symbolic": 0.8984264397151059,
+        "evolution": 0.9145092317960472,
+        "emotion": 0.8747202933013486
+      }
+    },
+    {
+      "passage_id": "MLC-04",
+      "ldri": 0.019038792295359073,
+      "raw_ldri": 0.8986117954384188,
+      "gamma_global": 0.021186893374875344,
+      "runtime_s": 0.13,
+      "components": {
+        "intrinsic": 0.021938787747875988,
+        "interaction": 0.0019732435353004532,
+        "temporal": 0.002937127081523806,
+        "resonance": 0.00015675634341290123,
+        "memory": 0.0029116262301870075,
+        "uncertainty": 0.8795730031430598
+      },
+      "feature_norms": {
+        "semantic": 13.675707827245942,
+        "narrative": 9.526262923027364,
+        "interaction": 7.4439808129554095,
+        "symbolic": 8.746524485797902,
+        "evolution": 12.919251276923166,
+        "emotion": 10.523786324437152
+      },
+      "activations": {
+        "semantic": 0.9762577636275817,
+        "narrative": 0.8371610666352365,
+        "interaction": 0.6698661190255395,
+        "symbolic": 0.7834716539804569,
+        "evolution": 0.9644971062282461,
+        "emotion": 0.8908466573459876
+      }
+    },
+    {
+      "passage_id": "MLC-05",
+      "ldri": 0.035847203567553686,
+      "raw_ldri": 0.9052095634638616,
+      "gamma_global": 0.03960099960762821,
+      "runtime_s": 0.12,
+      "components": {
+        "intrinsic": 0.04309005575793056,
+        "interaction": 0.0037210913903906085,
+        "temporal": 0.0054898642450765985,
+        "resonance": 0.000292997552031342,
+        "memory": 0.005404261150449522,
+        "uncertainty": 0.869362359896308
+      },
+      "feature_norms": {
+        "semantic": 13.011043611815026,
+        "narrative": 11.15480886412308,
+        "interaction": 9.503683761737566,
+        "symbolic": 8.657706832537452,
+        "evolution": 10.82420455477019,
+        "emotion": 9.669750421893708
+      },
+      "activations": {
+        "semantic": 0.9661475910720313,
+        "narrative": 0.9169734809759019,
+        "interaction": 0.8357556631183392,
+        "symbolic": 0.7766728968423364,
+        "evolution": 0.9039866548186758,
+        "emotion": 0.8458888932703826
+      }
+    },
+    {
+      "passage_id": "MNC-01",
+      "ldri": 0.008765857877794289,
+      "raw_ldri": 0.9103990806869049,
+      "gamma_global": 0.009628588235370762,
+      "runtime_s": 0.201,
+      "components": {
+        "intrinsic": 0.010916041372271623,
+        "interaction": 0.0008966563341491308,
+        "temporal": 0.0013348057576239806,
+        "resonance": 7.123943361111479e-05,
+        "memory": 0.0013222477349854266,
+        "uncertainty": 0.9016332228091106
+      },
+      "feature_norms": {
+        "semantic": 15.940132419948736,
+        "narrative": 13.886035280654076,
+        "interaction": 11.320548657120227,
+        "symbolic": 8.859129944546972,
+        "evolution": 11.666421489360054,
+        "emotion": 7.411231727810459
+      },
+      "activations": {
+        "semantic": 0.9937910062382452,
+        "narrative": 0.9788568545096956,
+        "interaction": 0.9229342586759152,
+        "symbolic": 0.7918889957774562,
+        "evolution": 0.934263950631903,
+        "emotion": 0.666638274056851
+      }
+    },
+    {
+      "passage_id": "MNC-02",
+      "ldri": 0.027641789972734688,
+      "raw_ldri": 0.8983780862501705,
+      "gamma_global": 0.030768548783409778,
+      "runtime_s": 0.133,
+      "components": {
+        "intrinsic": 0.0319666214232102,
+        "interaction": 0.0028703621642674495,
+        "temporal": 0.004265426567828324,
+        "resonance": 0.0002276485331789312,
+        "memory": 0.004199693573436853,
+        "uncertainty": 0.8707362962774358
+      },
+      "feature_norms": {
+        "semantic": 13.096568765221337,
+        "narrative": 10.250718293270484,
+        "interaction": 9.082156719121521,
+        "symbolic": 9.768925288245796,
+        "evolution": 10.302722818045934,
+        "emotion": 8.565453598829201
+      },
+      "activations": {
+        "semantic": 0.9676260848512704,
+        "narrative": 0.8777325610080462,
+        "interaction": 0.8078946603537742,
+        "symbolic": 0.8517177943255585,
+        "evolution": 0.8803185859190349,
+        "emotion": 0.7694620774475925
+      }
+    },
+    {
+      "passage_id": "MNC-03",
+      "ldri": 0.014892255831890657,
+      "raw_ldri": 0.871780203136825,
+      "gamma_global": 0.01708258088254997,
+      "runtime_s": 0.149,
+      "components": {
+        "intrinsic": 0.01619821532569136,
+        "interaction": 0.0013450074143979609,
+        "temporal": 0.0023681485550853467,
+        "resonance": 0.00012638959699392077,
+        "memory": 0.002327766779730393,
+        "uncertainty": 0.8568879473049343
+      },
+      "feature_norms": {
+        "semantic": 14.156147821609899,
+        "narrative": 11.549062670769343,
+        "interaction": 0.0,
+        "symbolic": 10.311586932774173,
+        "evolution": 10.934372752380284,
+        "emotion": 9.45627645697789
+      },
+      "activations": {
+        "semantic": 0.9818290374436727,
+        "narrative": 0.9305825478698561,
+        "interaction": 0.0,
+        "symbolic": 0.8807551696413087,
+        "evolution": 0.9084811346953829,
+        "emotion": 0.8327763746905761
+      }
+    },
+    {
+      "passage_id": "MNC-04",
+      "ldri": 0.021165258463774882,
+      "raw_ldri": 0.8825973066846778,
+      "gamma_global": 0.023980651542296755,
+      "runtime_s": 0.152,
+      "components": {
+        "intrinsic": 0.02380597520160229,
+        "interaction": 0.0019858312098802833,
+        "temporal": 0.0033244242009067,
+        "resonance": 0.00017742663739872183,
+        "memory": 0.0032756158702671075,
+        "uncertainty": 0.8614320482209029
+      },
+      "feature_norms": {
+        "semantic": 14.05755083121278,
+        "narrative": 11.085409053004561,
+        "interaction": 7.132037761196586,
+        "symbolic": 9.825512597829265,
+        "evolution": 10.792715496252288,
+        "emotion": 8.14651534800429
+      },
+      "activations": {
+        "semantic": 0.9807894314762661,
+        "narrative": 0.9143705383973326,
+        "interaction": 0.6384370990083588,
+        "symbolic": 0.8549698977236555,
+        "evolution": 0.9026705979077558,
+        "emotion": 0.7348114631906375
+      }
+    },
+    {
+      "passage_id": "MNC-05",
+      "ldri": 0.02160267231296084,
+      "raw_ldri": 0.8644909351624165,
+      "gamma_global": 0.024988893965559318,
+      "runtime_s": 0.149,
+      "components": {
+        "intrinsic": 0.022517022098845582,
+        "interaction": 0.001979787205823695,
+        "temporal": 0.0034641962795077747,
+        "resonance": 0.00018488636227428218,
+        "memory": 0.0034190126376113243,
+        "uncertainty": 0.8428882628494556
+      },
+      "feature_norms": {
+        "semantic": 11.603788835764199,
+        "narrative": 10.87217008432567,
+        "interaction": 7.443044708318911,
+        "symbolic": 7.989464467965993,
+        "evolution": 10.608299082916322,
+        "emotion": 7.647226908663033
+      },
+      "activations": {
+        "semantic": 0.9323195765395306,
+        "narrative": 0.9059643813663396,
+        "interaction": 0.6697740925168331,
+        "symbolic": 0.7210243702934183,
+        "evolution": 0.8946766554363651,
+        "emotion": 0.6895093801387613
+      }
+    },
+    {
+      "passage_id": "NWC-01",
+      "ldri": 0.02904746183212767,
+      "raw_ldri": 0.9111837147417914,
+      "gamma_global": 0.0318788202227243,
+      "runtime_s": 0.164,
+      "components": {
+        "intrinsic": 0.03642467786000836,
+        "interaction": 0.0029510996868162736,
+        "temporal": 0.004419342871391743,
+        "resonance": 0.00023586314435119078,
+        "memory": 0.004389786560909877,
+        "uncertainty": 0.8821362529096638
+      },
+      "feature_norms": {
+        "semantic": 15.32291248691655,
+        "narrative": 10.990590296308316,
+        "interaction": 7.4775737610585225,
+        "symbolic": 9.499731833570332,
+        "evolution": 12.351904394218847,
+        "emotion": 12.112585109147119
+      },
+      "activations": {
+        "semantic": 0.990866743271063,
+        "narrative": 0.9107096179963046,
+        "interaction": 0.6731592360353775,
+        "symbolic": 0.8355087823248634,
+        "evolution": 0.9527068986651348,
+        "emotion": 0.9468317763300877
+      }
+    },
+    {
+      "passage_id": "NWC-02",
+      "ldri": 0.028957886876012126,
+      "raw_ldri": 0.9292381022469004,
+      "gamma_global": 0.031163042933766785,
+      "runtime_s": 0.176,
+      "components": {
+        "intrinsic": 0.042479258728675834,
+        "interaction": 0.0029097259064407546,
+        "temporal": 0.004320115069441795,
+        "resonance": 0.0002305672933488897,
+        "memory": 0.004269268278721308,
+        "uncertainty": 0.9002802153708882
+      },
+      "feature_norms": {
+        "semantic": 15.489656518657151,
+        "narrative": 13.84542200544376,
+        "interaction": 10.780712100993634,
+        "symbolic": 10.115730735306702,
+        "evolution": 11.326872960341152,
+        "emotion": 11.985873217273172
+      },
+      "activations": {
+        "semantic": 0.9917586340759722,
+        "narrative": 0.978375194278394,
+        "interaction": 0.9021652128239751,
+        "symbolic": 0.8708215072384845,
+        "evolution": 0.9231547040133372,
+        "emotion": 0.9434835275543516
+      }
+    },
+    {
+      "passage_id": "NWC-03",
+      "ldri": 0.03899766383454643,
+      "raw_ldri": 0.9104348766766698,
+      "gamma_global": 0.042834105803259984,
+      "runtime_s": 0.141,
+      "components": {
+        "intrinsic": 0.04852464740231739,
+        "interaction": 0.004018682538192527,
+        "temporal": 0.00593806793386721,
+        "resonance": 0.00031691846842646766,
+        "memory": 0.005858456062938047,
+        "uncertainty": 0.8714372128421234
+      },
+      "feature_norms": {
+        "semantic": 14.72313361300634,
+        "narrative": 10.039351957388973,
+        "interaction": 8.55576912872711,
+        "symbolic": 9.450612738233124,
+        "evolution": 11.713656394443609,
+        "emotion": 11.368711358245637
+      },
+      "activations": {
+        "semantic": 0.9869035393900669,
+        "narrative": 0.8667824475605662,
+        "interaction": 0.76869629869318,
+        "symbolic": 0.8324178537496619,
+        "evolution": 0.9356999533698307,
+        "emotion": 0.9246002982044379
+      }
+    },
+    {
+      "passage_id": "NWC-04",
+      "ldri": 0.02409163713147385,
+      "raw_ldri": 0.9178296889787944,
+      "gamma_global": 0.02624848315625849,
+      "runtime_s": 0.176,
+      "components": {
+        "intrinsic": 0.03141667820948554,
+        "interaction": 0.0024683328661798494,
+        "temporal": 0.0036388124187471576,
+        "resonance": 0.00019420573686322327,
+        "memory": 0.003613157563026116,
+        "uncertainty": 0.8937380518473205
+      },
+      "feature_norms": {
+        "semantic": 16.095571926943567,
+        "narrative": 13.438344278493952,
+        "interaction": 7.504459856567567,
+        "symbolic": 10.118926162265174,
+        "evolution": 12.086155698412828,
+        "emotion": 11.484845772621359
+      },
+      "activations": {
+        "semantic": 0.994379579035173,
+        "narrative": 0.9729963149497068,
+        "interaction": 0.6757817421940739,
+        "symbolic": 0.8709884486844356,
+        "evolution": 0.9461473244472156,
+        "emotion": 0.928498271047306
+      }
+    },
+    {
+      "passage_id": "NWC-05",
+      "ldri": 0.01201154925640802,
+      "raw_ldri": 0.8934413715125114,
+      "gamma_global": 0.013444138182311402,
+      "runtime_s": 0.422,
+      "components": {
+        "intrinsic": 0.013418170980014339,
+        "interaction": 0.0012617147220153465,
+        "temporal": 0.0018637532952254913,
+        "resonance": 9.946970065446433e-05,
+        "memory": 0.001840122517320532,
+        "uncertainty": 0.8814298222561033
+      },
+      "feature_norms": {
+        "semantic": 15.021608065677023,
+        "narrative": 13.356963153499352,
+        "interaction": 6.963648185115978,
+        "symbolic": 9.846015971748711,
+        "evolution": 11.299082808796225,
+        "emotion": 7.219930288067162
+      },
+      "activations": {
+        "semantic": 0.9890342026012946,
+        "narrative": 0.9717925540096134,
+        "interaction": 0.6208593069134991,
+        "symbolic": 0.856135099437224,
+        "evolution": 0.9221822283418468,
+        "emotion": 0.6474447273898476
+      }
+    },
+    {
+      "passage_id": "SNC-01",
+      "ldri": 0.03306213903715028,
+      "raw_ldri": 0.9408210082294093,
+      "gamma_global": 0.03514179503641401,
+      "runtime_s": 0.635,
+      "components": {
+        "intrinsic": 0.0545448147416142,
+        "interaction": 0.003337458338084936,
+        "temporal": 0.00487168722986117,
+        "resonance": 0.00026000505092485337,
+        "memory": 0.004842635288046203,
+        "uncertainty": 0.907758869192259
+      },
+      "feature_norms": {
+        "semantic": 17.034205425954106,
+        "narrative": 13.40607071754388,
+        "interaction": 15.909533038564017,
+        "symbolic": 10.833966709042812,
+        "evolution": 14.08035526941677,
+        "emotion": 10.820046130471626
+      },
+      "activations": {
+        "semantic": 0.9969823686902669,
+        "narrative": 0.9725243368274626,
+        "interaction": 0.9936687958389446,
+        "symbolic": 0.9043918004310372,
+        "evolution": 0.9810343928527099,
+        "emotion": 0.903813663662376
+      }
+    },
+    {
+      "passage_id": "SNC-02",
+      "ldri": 0.05108372617449897,
+      "raw_ldri": 0.9464537117832841,
+      "gamma_global": 0.053973824116816345,
+      "runtime_s": 0.766,
+      "components": {
+        "intrinsic": 0.09519028244131243,
+        "interaction": 0.005061673774257792,
+        "temporal": 0.007482360802121927,
+        "resonance": 0.0003993383625839375,
+        "memory": 0.0074580452159652404,
+        "uncertainty": 0.8953699856087851
+      },
+      "feature_norms": {
+        "semantic": 20.304104017037844,
+        "narrative": 12.466727869465457,
+        "interaction": 15.703580131860297,
+        "symbolic": 11.888515768232349,
+        "evolution": 15.419610100875204,
+        "emotion": 13.53079636558754
+      },
+      "activations": {
+        "semantic": 0.9997374667451185,
+        "narrative": 0.9553270039633962,
+        "interaction": 0.9927882856293113,
+        "symbolic": 0.940794222173275,
+        "evolution": 0.9913939300217005,
+        "emotion": 0.974309885367871
+      }
+    },
+    {
+      "passage_id": "SNC-03",
+      "ldri": 0.040000508116129554,
+      "raw_ldri": 0.9530122208052016,
+      "gamma_global": 0.04197271267133706,
+      "runtime_s": 0.798,
+      "components": {
+        "intrinsic": 0.09149527344704546,
+        "interaction": 0.0039955480874942296,
+        "temporal": 0.005818653489717994,
+        "resonance": 0.00031054524347026187,
+        "memory": 0.005766022956601972,
+        "uncertainty": 0.9130117126890721
+      },
+      "feature_norms": {
+        "semantic": 20.61146269529817,
+        "narrative": 15.621705398234495,
+        "interaction": 17.279983823951827,
+        "symbolic": 12.605825923390102,
+        "evolution": 23.097123275428967,
+        "emotion": 27.88558846668744
+      },
+      "activations": {
+        "semantic": 0.9997958484379597,
+        "narrative": 0.9924087088570753,
+        "interaction": 0.9974507518823675,
+        "symbolic": 0.9583367962672696,
+        "evolution": 0.9999767578257039,
+        "emotion": 0.9999998238836327
+      }
+    },
+    {
+      "passage_id": "SNC-04",
+      "ldri": 0.055075124879374826,
+      "raw_ldri": 0.9414498872851773,
+      "gamma_global": 0.05850032553319735,
+      "runtime_s": 0.559,
+      "components": {
+        "intrinsic": 0.0892711580721103,
+        "interaction": 0.0056587460489610315,
+        "temporal": 0.008109867141034944,
+        "resonance": 0.00043282877563933337,
+        "memory": 0.008062973029734938,
+        "uncertainty": 0.8863747624058025
+      },
+      "feature_norms": {
+        "semantic": 15.849354993701432,
+        "narrative": 12.211260287911783,
+        "interaction": 11.853921835320106,
+        "symbolic": 13.142038205457682,
+        "evolution": 13.706366598732753,
+        "emotion": 11.008500125834917
+      },
+      "activations": {
+        "semantic": 0.9934221088196913,
+        "narrative": 0.9493237315756268,
+        "interaction": 0.9398136235778145,
+        "symbolic": 0.9683894187221453,
+        "evolution": 0.9766530682664886,
+        "emotion": 0.911410461185224
+      }
+    },
+    {
+      "passage_id": "SNC-05",
+      "ldri": 0.02216433094626979,
+      "raw_ldri": 0.9330735845539224,
+      "gamma_global": 0.023754108264533034,
+      "runtime_s": 0.862,
+      "components": {
+        "intrinsic": 0.034911945443580034,
+        "interaction": 0.0021404040116302144,
+        "temporal": 0.0032930186340553538,
+        "resonance": 0.00017575050228921463,
+        "memory": 0.0032823172417502343,
+        "uncertainty": 0.9109092536076526
+      },
+      "feature_norms": {
+        "semantic": 22.112598984752243,
+        "narrative": 16.486319659349565,
+        "interaction": 19.648392803688147,
+        "symbolic": 10.724944751509872,
+        "evolution": 15.330263052218397,
+        "emotion": 8.962923399015326
+      },
+      "activations": {
+        "semantic": 0.9999433908925794,
+        "narrative": 0.995643013882941,
+        "interaction": 0.9995566658553411,
+        "symbolic": 0.89979015067032,
+        "evolution": 0.990907808447839,
+        "emotion": 0.7994476395860616
+      }
+    },
+    {
+      "passage_id": "SSC-01",
+      "ldri": 0.027473760612820707,
+      "raw_ldri": 0.9302179237846089,
+      "gamma_global": 0.02953475729756228,
+      "runtime_s": 0.537,
+      "components": {
+        "intrinsic": 0.0399161487432947,
+        "interaction": 0.002785931896896604,
+        "temporal": 0.004094386749865513,
+        "resonance": 0.00021852002913478593,
+        "memory": 0.004072194044513852,
+        "uncertainty": 0.9027441631717882
+      },
+      "feature_norms": {
+        "semantic": 15.36618340805994,
+        "narrative": 13.823679690259324,
+        "interaction": 11.221616680392959,
+        "symbolic": 11.598992458971855,
+        "evolution": 12.10051209980347,
+        "emotion": 9.382810002141198
+      },
+      "activations": {
+        "semantic": 0.9911061197454226,
+        "narrative": 0.978113437251001,
+        "interaction": 0.9194190990472705,
+        "symbolic": 0.9321687666522829,
+        "evolution": 0.9465200179051764,
+        "emotion": 0.8280828270426003
+      }
+    },
+    {
+      "passage_id": "SSC-02",
+      "ldri": 0.02972682616800745,
+      "raw_ldri": 0.9215352018511371,
+      "gamma_global": 0.03225793882674648,
+      "runtime_s": 0.379,
+      "components": {
+        "intrinsic": 0.04121520749321567,
+        "interaction": 0.0029733141037204688,
+        "temporal": 0.004471899869686902,
+        "resonance": 0.00023866814483119485,
+        "memory": 0.004393196257269155,
+        "uncertainty": 0.8918083756831298
+      },
+      "feature_norms": {
+        "semantic": 12.389587719260021,
+        "narrative": 11.522643352898266,
+        "interaction": 9.391750952819544,
+        "symbolic": 10.413407072839597,
+        "evolution": 11.364447827172834,
+        "emotion": 16.7192404623994
+      },
+      "activations": {
+        "semantic": 0.9535805941224788,
+        "narrative": 0.9297311160884069,
+        "interaction": 0.8286590279425015,
+        "symbolic": 0.8856831085394927,
+        "evolution": 0.9244539963432825,
+        "emotion": 0.9962674365627857
+      }
+    },
+    {
+      "passage_id": "SSC-03",
+      "ldri": 0.016505655093332492,
+      "raw_ldri": 0.8802486108834561,
+      "gamma_global": 0.01875112881662681,
+      "runtime_s": 0.48,
+      "components": {
+        "intrinsic": 0.01884483607827992,
+        "interaction": 0.0014632144874570955,
+        "temporal": 0.0025994584143122436,
+        "resonance": 0.0001387347515348505,
+        "memory": 0.002562714293018327,
+        "uncertainty": 0.8637429557901236
+      },
+      "feature_norms": {
+        "semantic": 14.529691780818426,
+        "narrative": 12.397614701278323,
+        "interaction": 7.857754352424487,
+        "symbolic": 9.349889119920789,
+        "evolution": 10.984714517386532,
+        "emotion": 7.38297462102898
+      },
+      "activations": {
+        "semantic": 0.9853342269634099,
+        "narrative": 0.9537649451502086,
+        "interaction": 0.7091321007251012,
+        "symbolic": 0.8259492805404854,
+        "evolution": 0.910478732888355,
+        "emotion": 0.6638394094368585
+      }
+    },
+    {
+      "passage_id": "SSC-04",
+      "ldri": 0.014816489248024074,
+      "raw_ldri": 0.9348808963164448,
+      "gamma_global": 0.015848531408014663,
+      "runtime_s": 0.972,
+      "components": {
+        "intrinsic": 0.02274442834354542,
+        "interaction": 0.0014985549103149276,
+        "temporal": 0.002197072972296221,
+        "resonance": 0.00011725918415821144,
+        "memory": 0.0021791930398748485,
+        "uncertainty": 0.9200644070684207
+      },
+      "feature_norms": {
+        "semantic": 15.271984640178239,
+        "narrative": 14.234246283962406,
+        "interaction": 11.861999025623284,
+        "symbolic": 11.123566886379065,
+        "evolution": 13.06706286984986,
+        "emotion": 10.211284523303943
+      },
+      "activations": {
+        "semantic": 0.9905776457100511,
+        "narrative": 0.9826172222160239,
+        "interaction": 0.9400437660850449,
+        "symbolic": 0.9158096359517532,
+        "evolution": 0.9671223650423206,
+        "emotion": 0.8757434168508661
+      }
+    },
+    {
+      "passage_id": "SSC-05",
+      "ldri": 0.009776768872749794,
+      "raw_ldri": 0.908940451975371,
+      "gamma_global": 0.010756225945827648,
+      "runtime_s": 0.906,
+      "components": {
+        "intrinsic": 0.01295929476839391,
+        "interaction": 0.0008926464694036409,
+        "temporal": 0.001491129537563233,
+        "resonance": 7.958253333121507e-05,
+        "memory": 0.001486283782366408,
+        "uncertainty": 0.8991636831026212
+      },
+      "feature_norms": {
+        "semantic": 14.758851961481662,
+        "narrative": 13.366029754740472,
+        "interaction": 10.997798598132146,
+        "symbolic": 10.169611766003479,
+        "evolution": 11.582112806279012,
+        "emotion": 8.20460103677204
+      },
+      "activations": {
+        "semantic": 0.9871764791052278,
+        "narrative": 0.9719289091641153,
+        "interaction": 0.9109922184656265,
+        "symbolic": 0.8736146959460548,
+        "evolution": 0.9316358518175584,
+        "emotion": 0.7398012621096026
+      }
+    }
+  ]
+}

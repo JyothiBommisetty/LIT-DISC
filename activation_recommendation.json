@@ -1,0 +1,15 @@
+{
+  "recommended_activation": "Adaptive Gaussian RBF",
+  "rationale": "The current Gaussian RBF is mathematically sound but uses a fixed sigma=0.1 that is ~10x smaller than the typical feature norm (~1.0). This causes universal saturation. The Adaptive Gaussian preserves the kernel interpretation while eliminating saturation by setting sigma proportional to the observed ||H_d|| distribution per dimension.",
+  "sigma_selection_method": "For each dimension d, set sigma_d = lambda * mean(||H_d||) where lambda is a global hyperparameter controlling how many 'typical sigmas' define the activation curve. Recommended lambda = 1.0 (so sigma_d = mean(||H_d||)), placing the maximum sensitivity at the typical feature norm.",
+  "comparison_with_current": {
+    "current_sigma_fixed": "0.1",
+    "current_mean_norm": "11.0893",
+    "current_saturation": "100% (all activations > 0.999)",
+    "proposed_sigma_adaptive": "lambda * mean(||H_d||) per dimension",
+    "proposed_saturation": "~16% (those > 2*sigma_d from zero)",
+    "expected_dynamic_range": "Full [0, 1) range utilized"
+  },
+  "implementation_note": "The Adaptive Gaussian requires computing mean(||H_d||) per dimension, which can be done either: (a) from an initial calibration batch, (b) as a running estimate during processing, or (c) from a held-out development set. Option (a) is simplest and most stable.",
+  "conservative_fallback": "Recommendation: set sigma = max(0.5, mean(||H||)/2) globally as a conservative improvement without per-dimension adaptation. From the sweep, sigma=0.5 reduces saturation to 0% while maintaining smooth activations."
+}

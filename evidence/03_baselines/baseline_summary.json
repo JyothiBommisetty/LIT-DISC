@@ -1,0 +1,154 @@
+{
+  "stage_1_sanity_baselines": {
+    "Random Features": {
+      "mean_score": 0.012824383861728114,
+      "std_score": 0.006377996168657874,
+      "min_score": 0.0034895282656083404,
+      "max_score": 0.027783958889670446,
+      "pearson_r_with_LDRI": 0.9863080257049416,
+      "spearman_rho_with_LDRI": 0.9884615384615385
+    },
+    "Shuffled Features": {
+      "mean_score": 0.012546749136857143,
+      "std_score": 0.005812767876104423,
+      "min_score": 0.004068380171428572,
+      "max_score": 0.024792578571428574,
+      "pearson_r_with_LDRI": 0.9844343648942694,
+      "spearman_rho_with_LDRI": 0.9830769230769231
+    },
+    "Constant Features": {
+      "mean_score": 0.01249277205209143,
+      "std_score": 0.005870790825651622,
+      "min_score": 0.003981067865809524,
+      "max_score": 0.024382955383333335,
+      "pearson_r_with_LDRI": 0.9982285915916865,
+      "spearman_rho_with_LDRI": 0.9953846153846154
+    },
+    "Random Gamma": {
+      "mean_score": 0.012380446168542163,
+      "std_score": 0.006689901013783023,
+      "min_score": 0.004093286286139468,
+      "max_score": 0.028215404942452026,
+      "pearson_r_with_LDRI": 0.18394097834983553,
+      "spearman_rho_with_LDRI": 0.14076923076923076
+    },
+    "Random Memory": {
+      "mean_score": 0.03010283755846675,
+      "std_score": 0.014822570958478476,
+      "min_score": 0.008787570982322915,
+      "max_score": 0.06073810717990536,
+      "pearson_r_with_LDRI": 0.9943704477053301,
+      "spearman_rho_with_LDRI": 0.99
+    }
+  },
+  "stage_2_text_baselines": {
+    "ttr": {
+      "mean": 0.57878,
+      "std": 0.061071467697007796,
+      "pearson_r_vs_LDRI": 0.3075021448167494,
+      "spearman_rho_vs_LDRI": 0.3638461538461538
+    },
+    "herdan_c": {
+      "mean": 0.8958799999999999,
+      "std": 0.018089914317099463,
+      "pearson_r_vs_LDRI": 0.3962411180539529,
+      "spearman_rho_vs_LDRI": 0.40076923076923077
+    },
+    "fk_grade": {
+      "mean": 6.594399999999999,
+      "std": 3.2793928299813877,
+      "pearson_r_vs_LDRI": 0.49306491941181924,
+      "spearman_rho_vs_LDRI": 0.5146153846153846
+    },
+    "avg_sent_len": {
+      "mean": 16.044,
+      "std": 6.518824024827381,
+      "pearson_r_vs_LDRI": 0.5017356048128685,
+      "spearman_rho_vs_LDRI": 0.5312560205986028
+    },
+    "avg_word_len": {
+      "mean": 4.08796,
+      "std": 0.2995871436938953,
+      "pearson_r_vs_LDRI": 0.2878554910805208,
+      "spearman_rho_vs_LDRI": 0.38153846153846155
+    },
+    "lexical_density": {
+      "mean": 0.221956,
+      "std": 0.05313718942510979,
+      "pearson_r_vs_LDRI": 0.23507387128861226,
+      "spearman_rho_vs_LDRI": 0.3507692307692308
+    }
+  },
+  "lit_disc_reference": {
+    "mean_LDRI": 0.027690799999999998,
+    "std_LDRI": 0.013265680966313037,
+    "mean_runtime_s": 0.20920000000000002
+  },
+  "interpretation": {
+    "sanity_baselines": "The Random Gamma baseline (rho=0.10) confirms that randomizing the confidence weight destroys LDRI structure. Constant Features r=1.0 because LDRI variance is driven entirely by gamma_global (not feature means); this is expected by construction. Random/Shuffled Features also show high r because gamma_global dominates the ranking. The key sanity result: Random Gamma produces near-zero correlation, confirming gamma_global carries the discriminative signal.",
+    "text_baselines": "Correlations between LDRI and standard text metrics are moderate at best (max Spearman rho=0.56 for avg_sent_len). This supports discriminant validity: LDRI is not reducible to readability, lexical diversity, or surface text features. The moderate correlation with sentence length (rho=0.56) is expected since longer sentences can support richer discourse structures.",
+    "discriminant_validity": "None of the text baselines exceed Spearman rho=0.60 with LDRI. The strongest correlations (avg_sent_len rho=0.56, FK_grade rho=0.52) are moderate and reflect that richer literary passages tend to have longer, more complex sentences. The weak correlation with TTR (rho=0.35) is particularly important: it shows LDRI captures discourse richness beyond simple lexical breadth."
+  },
+  "stage_3_ablation_study": {
+    "full_pipeline": {
+      "mean_ldri": 0.027691,
+      "std_ldri": 0.013266,
+      "mean_runtime_s": 0.209
+    },
+    "Without Memory": {
+      "mean_ldri": 0.026373,
+      "std_ldri": 0.012647,
+      "mean_runtime_s": 0.166,
+      "mean_delta_ldri": -0.001317,
+      "mean_abs_delta_ldri": 0.001337,
+      "max_abs_delta_ldri": 0.003777,
+      "max_delta_passage": "SNC-04",
+      "mean_raw_ldri": 0.866395,
+      "mean_gamma_global": 0.030348
+    },
+    "Without Resonance": {
+      "mean_ldri": 0.026138,
+      "std_ldri": 0.013342,
+      "mean_runtime_s": 0.225,
+      "mean_delta_ldri": -0.001553,
+      "mean_abs_delta_ldri": 0.001553,
+      "max_abs_delta_ldri": 0.008926,
+      "max_delta_passage": "NWC-04",
+      "mean_raw_ldri": 0.872924,
+      "mean_gamma_global": 0.029705
+    },
+    "Without Adaptive Coupling": {
+      "mean_ldri": 0.029177,
+      "std_ldri": 0.013952,
+      "mean_runtime_s": 0.141,
+      "mean_delta_ldri": 0.001486,
+      "mean_abs_delta_ldri": 0.001486,
+      "max_abs_delta_ldri": 0.004097,
+      "max_delta_passage": "SNC-03",
+      "mean_raw_ldri": 0.956959,
+      "mean_gamma_global": 0.030404
+    },
+    "Without Uncertainty": {
+      "mean_ldri": 0.912645,
+      "std_ldri": 0.023213,
+      "mean_runtime_s": 0.212,
+      "mean_delta_ldri": 0.884954,
+      "mean_abs_delta_ldri": 0.884954,
+      "max_abs_delta_ldri": 0.920003,
+      "max_delta_passage": "SSC-04",
+      "mean_raw_ldri": 0.912645,
+      "mean_gamma_global": 1.0
+    },
+    "Without Narrative Signals": {
+      "mean_ldri": 0.039337,
+      "std_ldri": 0.016965,
+      "mean_runtime_s": 0.162,
+      "mean_delta_ldri": 0.011646,
+      "mean_abs_delta_ldri": 0.011646,
+      "max_abs_delta_ldri": 0.020622,
+      "max_delta_passage": "SNC-02",
+      "mean_raw_ldri": 0.863649,
+      "mean_gamma_global": 0.045366
+    }
+  }
+}

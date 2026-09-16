@@ -1,0 +1,703 @@
+{
+  "section_1_dataset_overview": {
+    "total_passages": 25,
+    "total_categories": 5,
+    "total_authors": 25,
+    "average_words_per_passage": 200.7,
+    "average_runtime_s": 0.209,
+    "total_processing_time_s": 5.23,
+    "minimum_runtime_s": 0.12,
+    "maximum_runtime_s": 0.33
+  },
+  "section_2_ldri_statistics": {
+    "mean": 0.027691,
+    "median": 0.027474,
+    "mode": [
+      0.029
+    ],
+    "std": 0.013266,
+    "variance": 0.00017598,
+    "min": 0.008766,
+    "max": 0.055076,
+    "range": 0.04631,
+    "q1": 0.016506,
+    "q3": 0.035847,
+    "iqr": 0.019341,
+    "ci95_lower": 0.022491,
+    "ci95_upper": 0.032891
+  },
+  "section_3_raw_ldri_statistics": {
+    "mean": 0.912766,
+    "median": 0.911192,
+    "std": 0.023998,
+    "variance": 0.0005759,
+    "min": 0.864503,
+    "max": 0.953008,
+    "range": 0.088505,
+    "q1": 0.898402,
+    "q3": 0.930221,
+    "iqr": 0.031819,
+    "ci95_lower": 0.903359,
+    "ci95_upper": 0.922173
+  },
+  "section_4_confidence_statistics": {
+    "mean": 0.030216,
+    "median": 0.029535,
+    "std": 0.0142,
+    "variance": 0.00020163,
+    "min": 0.009629,
+    "max": 0.058975,
+    "range": 0.049346,
+    "q1": 0.018751,
+    "q3": 0.039601,
+    "iqr": 0.02085,
+    "ci95_lower": 0.02465,
+    "ci95_upper": 0.035783
+  },
+  "section_5_runtime_statistics": {
+    "mean": 0.209,
+    "median": 0.19,
+    "std": 0.058,
+    "min": 0.12,
+    "max": 0.33,
+    "fastest_passage": "MLC-02",
+    "fastest_passage_title": "Marcel Proust, Swann's Way",
+    "fastest_runtime_s": 0.12,
+    "slowest_passage": "SNC-03",
+    "slowest_passage_title": "Fyodor Dostoevsky, Crime and Punishment",
+    "slowest_runtime_s": 0.33
+  },
+  "section_6_component_statistics": {
+    "intrinsic": {
+      "mean": 0.039356,
+      "std": 0.024276,
+      "min": 0.010918,
+      "max": 0.095205
+    },
+    "interaction": {
+      "mean": 0.002761,
+      "std": 0.001347,
+      "min": 0.000893,
+      "max": 0.005659
+    },
+    "temporal": {
+      "mean": 0.004189,
+      "std": 0.001969,
+      "min": 0.001335,
+      "max": 0.008176
+    },
+    "resonance": {
+      "mean": 0.000224,
+      "std": 0.000105,
+      "min": 7.1e-05,
+      "max": 0.000436
+    },
+    "memory": {
+      "mean": 0.004146,
+      "std": 0.001951,
+      "min": 0.001322,
+      "max": 0.008063
+    },
+    "uncertainty": {
+      "mean": 0.885075,
+      "std": 0.022475,
+      "min": 0.832884,
+      "max": 0.920065
+    },
+    "component_rank_by_mean": [
+      "uncertainty",
+      "intrinsic",
+      "temporal",
+      "memory",
+      "interaction",
+      "resonance"
+    ],
+    "highest_mean_component": "uncertainty",
+    "highest_mean_value": 0.885075
+  },
+  "section_7_feature_statistics": {
+    "semantic": {
+      "mean": 3.4988,
+      "median": 3.4901,
+      "std": 0.4972,
+      "variance": 0.24718,
+      "min": 2.2963,
+      "max": 4.5472
+    },
+    "narrative": {
+      "mean": 3.1102,
+      "median": 3.1765,
+      "std": 0.4633,
+      "variance": 0.214609,
+      "min": 2.283,
+      "max": 4.1993
+    },
+    "interaction": {
+      "mean": 2.6452,
+      "median": 2.5511,
+      "std": 0.5597,
+      "variance": 0.313264,
+      "min": 1.928,
+      "max": 4.1395
+    },
+    "symbolic": {
+      "mean": 2.5861,
+      "median": 2.5783,
+      "std": 0.3869,
+      "variance": 0.149689,
+      "min": 1.5321,
+      "max": 3.3416
+    },
+    "evolution": {
+      "mean": 2.9729,
+      "median": 2.9149,
+      "std": 0.5105,
+      "variance": 0.260641,
+      "min": 2.1615,
+      "max": 4.724
+    },
+    "emotion": {
+      "mean": 2.5515,
+      "median": 2.6564,
+      "std": 0.5066,
+      "variance": 0.256687,
+      "min": 1.6483,
+      "max": 3.5451
+    },
+    "feature_ranking": [
+      "semantic",
+      "narrative",
+      "evolution",
+      "interaction",
+      "symbolic",
+      "emotion"
+    ]
+  },
+  "section_8_category_analysis": {
+    "categories": {
+      "MLC": {
+        "count": 5,
+        "mean_ldri": 0.033011,
+        "mean_raw_ldri": 0.907928,
+        "mean_gamma": 0.036498,
+        "mean_runtime": 0.158,
+        "mean_feature_semantic": 3.1308,
+        "mean_feature_narrative": 2.8625,
+        "mean_feature_interaction": 2.4338,
+        "mean_feature_symbolic": 2.6672,
+        "mean_feature_evolution": 2.8581,
+        "mean_feature_emotion": 2.6752
+      },
+      "MNC": {
+        "count": 5,
+        "mean_ldri": 0.018814,
+        "mean_raw_ldri": 0.885551,
+        "mean_gamma": 0.02129,
+        "mean_runtime": 0.178,
+        "mean_feature_semantic": 3.3675,
+        "mean_feature_narrative": 2.9004,
+        "mean_feature_interaction": 2.4907,
+        "mean_feature_symbolic": 2.508,
+        "mean_feature_evolution": 2.8293,
+        "mean_feature_emotion": 2.2349
+      },
+      "NWC": {
+        "count": 5,
+        "mean_ldri": 0.026622,
+        "mean_raw_ldri": 0.912431,
+        "mean_gamma": 0.029114,
+        "mean_runtime": 0.212,
+        "mean_feature_semantic": 3.5487,
+        "mean_feature_narrative": 3.0055,
+        "mean_feature_interaction": 2.24,
+        "mean_feature_symbolic": 2.4243,
+        "mean_feature_evolution": 2.848,
+        "mean_feature_emotion": 2.582
+      },
+      "SNC": {
+        "count": 5,
+        "mean_ldri": 0.040347,
+        "mean_raw_ldri": 0.942751,
+        "mean_gamma": 0.04275,
+        "mean_runtime": 0.274,
+        "mean_feature_semantic": 4.1627,
+        "mean_feature_narrative": 3.6267,
+        "mean_feature_interaction": 3.5125,
+        "mean_feature_symbolic": 2.9771,
+        "mean_feature_evolution": 3.62,
+        "mean_feature_emotion": 3.1631
+      },
+      "SSC": {
+        "count": 5,
+        "mean_ldri": 0.01966,
+        "mean_raw_ldri": 0.915169,
+        "mean_gamma": 0.02143,
+        "mean_runtime": 0.224,
+        "mean_feature_semantic": 3.2843,
+        "mean_feature_narrative": 3.1559,
+        "mean_feature_interaction": 2.5493,
+        "mean_feature_symbolic": 2.3539,
+        "mean_feature_evolution": 2.709,
+        "mean_feature_emotion": 2.1021
+      }
+    },
+    "highest_scoring_category": "SNC",
+    "lowest_scoring_category": "MNC"
+  },
+  "section_9_author_analysis": {
+    "author_ranking": [
+      {
+        "author": "Virginia Woolf",
+        "passage_id": "SNC-04",
+        "title": "To the Lighthouse",
+        "category": "SNC",
+        "ldri": 0.055076,
+        "runtime_s": 0.19,
+        "feature_semantic": 3.6389,
+        "feature_narrative": 3.1131,
+        "feature_interaction": 3.4256,
+        "feature_symbolic": 3.3231,
+        "feature_evolution": 3.4713,
+        "feature_emotion": 3.3873
+      },
+      {
+        "author": "Marcel Proust",
+        "passage_id": "MLC-02",
+        "title": "Swann's Way",
+        "category": "MLC",
+        "ldri": 0.052198,
+        "runtime_s": 0.12,
+        "feature_semantic": 2.3847,
+        "feature_narrative": 2.8758,
+        "feature_interaction": 2.1101,
+        "feature_symbolic": 3.3416,
+        "feature_evolution": 3.6205,
+        "feature_emotion": 2.7117
+      },
+      {
+        "author": "Charles Dickens",
+        "passage_id": "SNC-02",
+        "title": "Great Expectations",
+        "category": "SNC",
+        "ldri": 0.051084,
+        "runtime_s": 0.28,
+        "feature_semantic": 4.2864,
+        "feature_narrative": 3.5453,
+        "feature_interaction": 3.4905,
+        "feature_symbolic": 3.0305,
+        "feature_evolution": 3.3402,
+        "feature_emotion": 3.1637
+      },
+      {
+        "author": "Franz Kafka",
+        "passage_id": "MLC-03",
+        "title": "The Metamorphosis",
+        "category": "MLC",
+        "ldri": 0.042274,
+        "runtime_s": 0.16,
+        "feature_semantic": 3.3847,
+        "feature_narrative": 3.0586,
+        "feature_interaction": 2.5569,
+        "feature_symbolic": 2.5408,
+        "feature_evolution": 2.4635,
+        "feature_emotion": 2.5381
+      },
+      {
+        "author": "Fyodor Dostoevsky",
+        "passage_id": "SNC-03",
+        "title": "Crime and Punishment",
+        "category": "SNC",
+        "ldri": 0.040387,
+        "runtime_s": 0.33,
+        "feature_semantic": 4.4563,
+        "feature_narrative": 3.8681,
+        "feature_interaction": 2.7888,
+        "feature_symbolic": 2.9342,
+        "feature_evolution": 4.724,
+        "feature_emotion": 3.5451
+      },
+      {
+        "author": "Naguib Mahfouz",
+        "passage_id": "NWC-03",
+        "title": "Midaq Alley",
+        "category": "NWC",
+        "ldri": 0.038998,
+        "runtime_s": 0.17,
+        "feature_semantic": 3.415,
+        "feature_narrative": 2.283,
+        "feature_interaction": 2.0249,
+        "feature_symbolic": 2.1068,
+        "feature_evolution": 2.6061,
+        "feature_emotion": 2.7351
+      },
+      {
+        "author": "Gabriel Garcia Marquez",
+        "passage_id": "MLC-05",
+        "title": "One Hundred Years of Solitude",
+        "category": "MLC",
+        "ldri": 0.035847,
+        "runtime_s": 0.14,
+        "feature_semantic": 3.1517,
+        "feature_narrative": 2.7685,
+        "feature_interaction": 2.4371,
+        "feature_symbolic": 2.2073,
+        "feature_evolution": 2.4385,
+        "feature_emotion": 2.4077
+      },
+      {
+        "author": "Jane Austen",
+        "passage_id": "SNC-01",
+        "title": "Pride and Prejudice",
+        "category": "SNC",
+        "ldri": 0.033024,
+        "runtime_s": 0.26,
+        "feature_semantic": 3.8848,
+        "feature_narrative": 3.4079,
+        "feature_interaction": 3.7179,
+        "feature_symbolic": 2.8592,
+        "feature_evolution": 3.581,
+        "feature_emotion": 3.0769
+      },
+      {
+        "author": "James Joyce",
+        "passage_id": "SSC-02",
+        "title": "The Dead",
+        "category": "SSC",
+        "ldri": 0.029728,
+        "runtime_s": 0.15,
+        "feature_semantic": 2.2963,
+        "feature_narrative": 2.4425,
+        "feature_interaction": 1.928,
+        "feature_symbolic": 1.5321,
+        "feature_evolution": 2.1615,
+        "feature_emotion": 1.6483
+      },
+      {
+        "author": "Murasaki Shikibu",
+        "passage_id": "NWC-01",
+        "title": "The Tale of Genji",
+        "category": "NWC",
+        "ldri": 0.029048,
+        "runtime_s": 0.19,
+        "feature_semantic": 3.5504,
+        "feature_narrative": 2.7443,
+        "feature_interaction": 2.3149,
+        "feature_symbolic": 2.6331,
+        "feature_evolution": 2.9149,
+        "feature_emotion": 2.6992
+      },
+      {
+        "author": "Lu Xun",
+        "passage_id": "NWC-02",
+        "title": "The True Story of Ah Q",
+        "category": "NWC",
+        "ldri": 0.028958,
+        "runtime_s": 0.22,
+        "feature_semantic": 3.575,
+        "feature_narrative": 3.3182,
+        "feature_interaction": 2.6454,
+        "feature_symbolic": 2.5666,
+        "feature_evolution": 2.9967,
+        "feature_emotion": 2.7088
+      },
+      {
+        "author": "George Saunders",
+        "passage_id": "MNC-02",
+        "title": "Lincoln in the Bardo",
+        "category": "MNC",
+        "ldri": 0.027643,
+        "runtime_s": 0.16,
+        "feature_semantic": 3.2736,
+        "feature_narrative": 2.6815,
+        "feature_interaction": 2.4026,
+        "feature_symbolic": 2.3061,
+        "feature_evolution": 2.6911,
+        "feature_emotion": 2.202
+      },
+      {
+        "author": "Anton Chekhov",
+        "passage_id": "SSC-01",
+        "title": "The Lady with the Dog",
+        "category": "SSC",
+        "ldri": 0.027474,
+        "runtime_s": 0.21,
+        "feature_semantic": 3.5734,
+        "feature_narrative": 3.3514,
+        "feature_interaction": 2.7475,
+        "feature_symbolic": 2.8055,
+        "feature_evolution": 3.083,
+        "feature_emotion": 2.1851
+      },
+      {
+        "author": "Arundhati Roy",
+        "passage_id": "NWC-04",
+        "title": "The God of Small Things",
+        "category": "NWC",
+        "ldri": 0.024092,
+        "runtime_s": 0.22,
+        "feature_semantic": 3.6704,
+        "feature_narrative": 3.3264,
+        "feature_interaction": 2.2757,
+        "feature_symbolic": 2.418,
+        "feature_evolution": 2.7913,
+        "feature_emotion": 2.7959
+      },
+      {
+        "author": "Ernest Hemingway",
+        "passage_id": "SNC-05",
+        "title": "The Sun Also Rises",
+        "category": "SNC",
+        "ldri": 0.022164,
+        "runtime_s": 0.31,
+        "feature_semantic": 4.5472,
+        "feature_narrative": 4.1993,
+        "feature_interaction": 4.1395,
+        "feature_symbolic": 2.7387,
+        "feature_evolution": 2.9836,
+        "feature_emotion": 2.6426
+      },
+      {
+        "author": "Elena Ferrante",
+        "passage_id": "MNC-05",
+        "title": "My Brilliant Friend",
+        "category": "MNC",
+        "ldri": 0.021603,
+        "runtime_s": 0.17,
+        "feature_semantic": 3.1974,
+        "feature_narrative": 3.0627,
+        "feature_interaction": 2.5511,
+        "feature_symbolic": 2.3382,
+        "feature_evolution": 2.6749,
+        "feature_emotion": 1.9329
+      },
+      {
+        "author": "Margaret Atwood",
+        "passage_id": "MNC-04",
+        "title": "The Blind Assassin",
+        "category": "MNC",
+        "ldri": 0.021166,
+        "runtime_s": 0.18,
+        "feature_semantic": 3.3427,
+        "feature_narrative": 2.4807,
+        "feature_interaction": 2.2987,
+        "feature_symbolic": 2.4912,
+        "feature_evolution": 2.8081,
+        "feature_emotion": 1.9325
+      },
+      {
+        "author": "Leo Tolstoy",
+        "passage_id": "MLC-04",
+        "title": "Anna Karenina",
+        "category": "MLC",
+        "ldri": 0.019039,
+        "runtime_s": 0.14,
+        "feature_semantic": 3.3241,
+        "feature_narrative": 2.3428,
+        "feature_interaction": 2.303,
+        "feature_symbolic": 2.6193,
+        "feature_evolution": 2.7647,
+        "feature_emotion": 2.6564
+      },
+      {
+        "author": "Jorge Luis Borges",
+        "passage_id": "SSC-03",
+        "title": "The Garden of Forking Paths",
+        "category": "SSC",
+        "ldri": 0.016506,
+        "runtime_s": 0.19,
+        "feature_semantic": 3.4897,
+        "feature_narrative": 3.1765,
+        "feature_interaction": 2.267,
+        "feature_symbolic": 2.208,
+        "feature_evolution": 2.6526,
+        "feature_emotion": 1.9116
+      },
+      {
+        "author": "Gustave Flaubert",
+        "passage_id": "MLC-01",
+        "title": "Madame Bovary",
+        "category": "MLC",
+        "ldri": 0.015696,
+        "runtime_s": 0.23,
+        "feature_semantic": 3.4086,
+        "feature_narrative": 3.2666,
+        "feature_interaction": 2.7618,
+        "feature_symbolic": 2.6272,
+        "feature_evolution": 3.0035,
+        "feature_emotion": 3.0623
+      },
+      {
+        "author": "Kazuo Ishiguro",
+        "passage_id": "MNC-03",
+        "title": "Never Let Me Go",
+        "category": "MNC",
+        "ldri": 0.014893,
+        "runtime_s": 0.17,
+        "feature_semantic": 3.3625,
+        "feature_narrative": 2.9332,
+        "feature_interaction": 2.3022,
+        "feature_symbolic": 2.5783,
+        "feature_evolution": 2.8629,
+        "feature_emotion": 2.4277
+      },
+      {
+        "author": "Alice Munro",
+        "passage_id": "SSC-04",
+        "title": "The Bear Came Over the Mountain",
+        "category": "SSC",
+        "ldri": 0.014817,
+        "runtime_s": 0.25,
+        "feature_semantic": 3.5718,
+        "feature_narrative": 3.4602,
+        "feature_interaction": 3.0118,
+        "feature_symbolic": 2.8437,
+        "feature_evolution": 3.1483,
+        "feature_emotion": 2.9676
+      },
+      {
+        "author": "Salman Rushdie",
+        "passage_id": "NWC-05",
+        "title": "Midnight's Children",
+        "category": "NWC",
+        "ldri": 0.012012,
+        "runtime_s": 0.26,
+        "feature_semantic": 3.5329,
+        "feature_narrative": 3.3554,
+        "feature_interaction": 1.9392,
+        "feature_symbolic": 2.3971,
+        "feature_evolution": 2.931,
+        "feature_emotion": 1.9708
+      },
+      {
+        "author": "Raymond Carver",
+        "passage_id": "SSC-05",
+        "title": "Cathedral",
+        "category": "SSC",
+        "ldri": 0.009777,
+        "runtime_s": 0.32,
+        "feature_semantic": 3.4901,
+        "feature_narrative": 3.3489,
+        "feature_interaction": 2.7921,
+        "feature_symbolic": 2.3801,
+        "feature_evolution": 2.4997,
+        "feature_emotion": 1.7981
+      },
+      {
+        "author": "Hilary Mantel",
+        "passage_id": "MNC-01",
+        "title": "Wolf Hall",
+        "category": "MNC",
+        "ldri": 0.008766,
+        "runtime_s": 0.21,
+        "feature_semantic": 3.6613,
+        "feature_narrative": 3.3439,
+        "feature_interaction": 2.8988,
+        "feature_symbolic": 2.8263,
+        "feature_evolution": 3.1094,
+        "feature_emotion": 2.6794
+      }
+    ],
+    "top_5": [
+      "Virginia Woolf",
+      "Marcel Proust",
+      "Charles Dickens",
+      "Franz Kafka",
+      "Fyodor Dostoevsky"
+    ],
+    "bottom_5": [
+      "Kazuo Ishiguro",
+      "Alice Munro",
+      "Salman Rushdie",
+      "Raymond Carver",
+      "Hilary Mantel"
+    ]
+  },
+  "section_10_outlier_analysis": {
+    "ldri": {
+      "lower_fence": -0.012505,
+      "upper_fence": 0.064858,
+      "outlier_count": 0,
+      "outliers": []
+    },
+    "runtime": {
+      "lower_fence": 0.05,
+      "upper_fence": 0.37,
+      "outlier_count": 0,
+      "outliers": []
+    },
+    "gamma_global": {
+      "lower_fence": -0.012524,
+      "upper_fence": 0.070876,
+      "outlier_count": 0,
+      "outliers": []
+    }
+  },
+  "section_11_distribution_analysis": {
+    "ldri": {
+      "shape": "positively skewed",
+      "skewness": 0.5991,
+      "kurtosis": -0.6067
+    },
+    "raw_ldri": {
+      "shape": "approximately normal",
+      "skewness": -0.323,
+      "kurtosis": -0.8069
+    },
+    "gamma_global": {
+      "shape": "positively skewed",
+      "skewness": 0.5977,
+      "kurtosis": -0.5538
+    },
+    "runtime_s": {
+      "shape": "positively skewed",
+      "skewness": 0.648,
+      "kurtosis": -0.5834
+    }
+  },
+  "section_12_executive_summary": {
+    "average_ldri": 0.027691,
+    "ldri_range": [
+      0.008766,
+      0.055076
+    ],
+    "average_gamma_confidence": 0.030216,
+    "average_runtime_s": 0.209,
+    "runtime_range_s": [
+      0.12,
+      0.33
+    ],
+    "feature_trend": "Ranked by mean: semantic, narrative, evolution, interaction, symbolic, emotion",
+    "highest_feature": "semantic",
+    "lowest_feature": "emotion",
+    "category_trend": "Highest: SNC, Lowest: MNC",
+    "category_ranking": [
+      "SNC",
+      "MLC",
+      "NWC",
+      "SSC",
+      "MNC"
+    ],
+    "author_trend": "Top: Virginia Woolf (LDRI=0.055076), Bottom: Hilary Mantel (LDRI=0.008766)",
+    "dominant_component": "uncertainty",
+    "component_mean_contributions": {
+      "intrinsic": 0.039356,
+      "interaction": 0.002761,
+      "temporal": 0.004189,
+      "resonance": 0.000224,
+      "memory": 0.004146,
+      "uncertainty": 0.885075
+    },
+    "notable_observations": [
+      "Uncertainty dominates all component decompositions (mean=0.8851, min=0.8329)",
+      "Intrinsic richness is the second-largest component (mean=0.0394)",
+      "Resonance and memory contributions are near-zero (mean=0.000224, mean=0.004146)",
+      "Raw LDRI is nearly constant (mean=0.9128, CV=2.6%)",
+      "LDRI variation is driven entirely by gamma_global (CV=47.0%)",
+      "Semantic density scores highest among features (mean=3.499)",
+      "Emotion scores lowest among features (mean=2.551)",
+      "Runtime averages 0.21s per passage (range 0.12s--0.33s)",
+      "SNC category shows highest mean LDRI (0.040347)",
+      "MNC category shows lowest mean LDRI (0.018814)"
+    ]
+  }
+}

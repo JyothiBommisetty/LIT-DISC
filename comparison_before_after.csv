@@ -1,0 +1,24 @@
+comparison,old_value,new_value,old_std,new_std,old_cv,new_cv,change_pct,interpretation
+activation_semantic,1.0,0.981959,0.0,0.018153,0.0,0.0185,-1.8,Saturated→variable
+activation_narrative,1.0,0.941449,0.0,0.042649,0.0,0.0453,-5.9,Saturated→variable
+activation_interaction,1.0,0.802868,0.0,0.208392,0.0,0.2596,-19.7,Saturated→variable
+activation_symbolic,1.0,0.860747,0.0,0.065391,0.0,0.076,-13.9,Saturated→variable
+activation_evolution,1.0,0.937859,0.0,0.032782,0.0,0.035,-6.2,Saturated→variable
+activation_emotion,1.0,0.843564,0.0,0.108739,0.0,0.1289,-15.6,Saturated→variable
+ldri,0.029008,0.027676,0.012985,0.013251,0.4476,0.4788,-4.6,Same relative spread
+raw_ldri,0.95606,0.912799,0.003007,0.024052,0.0031,0.0263,-4.5,Same relative spread
+gamma_global,0.030349,0.0302,0.013593,0.014185,0.4479,0.4697,-0.5,Same relative spread
+comp_intrinsic,0.287934,0.03933,0.128962,0.024201,0.4479,0.6153,-86.3,
+comp_interaction,0.002858,0.00276,0.001276,0.001346,0.4467,0.4876,-3.4,
+comp_temporal,0.004207,0.004187,0.001884,0.001967,0.4479,0.4697,-0.5,
+comp_resonance,0.000225,0.000223,0.000101,0.000105,0.4479,0.4697,-0.5,
+comp_memory,0.004186,0.004144,0.001874,0.001948,0.4478,0.4702,-1.0,
+comp_uncertainty,0.927052,0.885122,0.013809,0.022537,0.0149,0.0255,-4.5,
+cat_ldri_MLC,0.033589,0.033011,0.014713,0.015468,0.438,0.4686,-1.7,
+cat_ldri_MNC,0.021894,0.018814,0.007522,0.007204,0.3436,0.3829,-14.1,
+cat_ldri_NWC,0.027829,0.026621,0.010141,0.009803,0.3644,0.3682,-4.3,
+cat_ldri_SNC,0.041435,0.040277,0.013586,0.013379,0.3279,0.3322,-2.8,
+cat_ldri_SSC,0.020293,0.01966,0.008479,0.008566,0.4178,0.4357,-3.1,
+author_ranking_spearman,1.0,0.9823,0,0,0,0,0,rho=0.9823
+runtime_s,0.858,0.379,0.252,0.292,0.2937,0.7708,-55.9,"No change expected (sigma is only in LDRI calc, not propagation)"
+var_raw_over_var_ldri,0.0536,3.2944,0,0,0,0,0,Higher = raw_ldri contributes more to LDRI variance

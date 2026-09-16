@@ -1,0 +1,40 @@
+# LIT-DISC v1.0.0 -- Baseline Evaluation
+"# Stage 1: Sanity Baselines (synthetic), Stage 2: Text Baselines (discriminant validity)"
+baseline,type,passage_id,author,score,std,min,max,runtime_s,corr_with_ldri,corr_spearman,description
+LIT-DISC (reference),reference,ALL,,0.027690799999999998,0.013265680966313037,0.008766,0.055076,0.20920000000000002,1.0,1.0,Full HMP-DT pipeline with all components active
+Random Features,sanity,ALL,,0.012824383861728114,0.006377996168657874,0.0034895282656083404,0.027783958889670446,0.0,0.9863080257049416,0.9884615384615385,Feature means replaced with random draws from empirical distribution
+Shuffled Features,sanity,ALL,,0.012546749136857143,0.005812767876104423,0.004068380171428572,0.024792578571428574,0.0,0.9844343648942694,0.9830769230769231,Feature values shuffled independently across passages
+Constant Features,sanity,ALL,,0.01249277205209143,0.005870790825651622,0.003981067865809524,0.024382955383333335,0.0,0.9982285915916865,0.9953846153846154,All passages assigned global mean feature vector
+Random Gamma,sanity,ALL,,0.012380446168542163,0.006689901013783023,0.004093286286139468,0.028215404942452026,0.0,0.18394097834983553,0.14076923076923076,"Real feature means multiplied by random gamma ~ Uniform(0.01, 0.06)"
+Random Memory,sanity,ALL,,0.03010283755846675,0.014822570958478476,0.008787570982322915,0.06073810717990536,0.0,0.9943704477053301,0.99,"Real pipeline with memory beta replaced by random uniform [0,1]"
+ttr,text,ALL,,0.57878,0.061071467697007796,0.4585,0.712,0.0,0.3075021448167494,0.3638461538461538,Text-based baseline: ttr
+herdan_c,text,ALL,,0.8958799999999999,0.018089914317099463,0.8618,0.9349,0.0,0.3962411180539529,0.40076923076923077,Text-based baseline: herdan_c
+fk_grade,text,ALL,,6.594399999999999,3.2793928299813877,1.17,13.5,0.0,0.49306491941181924,0.5146153846153846,Text-based baseline: fk_grade
+avg_sent_len,text,ALL,,16.044,6.518824024827381,6.5,31.0,0.0,0.5017356048128685,0.5312560205986028,Text-based baseline: avg_sent_len
+avg_word_len,text,ALL,,4.08796,0.2995871436938953,3.645,4.592,0.0,0.2878554910805208,0.38153846153846155,Text-based baseline: avg_word_len
+lexical_density,text,ALL,,0.221956,0.05313718942510979,0.1386,0.3063,0.0,0.23507387128861226,0.3507692307692308,Text-based baseline: lexical_density
+text_metrics,per_passage_text,SNC-01,Jane Austen,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SNC-02,Charles Dickens,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SNC-03,Fyodor Dostoevsky,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SNC-04,Virginia Woolf,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SNC-05,Ernest Hemingway,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MNC-01,Hilary Mantel,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MNC-02,George Saunders,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MNC-03,Kazuo Ishiguro,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MNC-04,Margaret Atwood,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MNC-05,Elena Ferrante,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SSC-01,Anton Chekhov,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SSC-02,James Joyce,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SSC-03,Jorge Luis Borges,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SSC-04,Alice Munro,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,SSC-05,Raymond Carver,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MLC-01,Gustave Flaubert,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MLC-02,Marcel Proust,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MLC-03,Franz Kafka,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MLC-04,Leo Tolstoy,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,MLC-05,Gabriel Garcia Marquez,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,NWC-01,Murasaki Shikibu,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,NWC-02,Lu Xun,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,NWC-03,Naguib Mahfouz,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,NWC-04,Arundhati Roy,0,0,0,0,0,0,0,Per-passage text metrics
+text_metrics,per_passage_text,NWC-05,Salman Rushdie,0,0,0,0,0,0,0,Per-passage text metrics

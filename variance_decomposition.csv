@@ -1,0 +1,23 @@
+variable,mean,std,cv,min,max
+LDRI,0.029008,0.012985,0.4476,0.009244,0.056198
+raw_ldri,0.95606,0.003007,0.0031,0.948549,0.960636
+gamma_global,0.030349,0.013593,0.4479,0.009629,0.0585
+comp_intrinsic,0.287934,0.128962,0.4479,0.091352,0.555028
+comp_interaction,0.002858,0.001276,0.4467,0.000947,0.00578
+comp_temporal,0.004207,0.001884,0.4479,0.001335,0.00811
+comp_resonance,0.000225,0.000101,0.4479,7.1e-05,0.000433
+comp_memory,0.004186,0.001874,0.4478,0.00133,0.008091
+comp_uncertainty,0.927052,0.013809,0.0149,0.898674,0.950795
+log_LDRI_variance,0.23764459,,,,
+var(log(raw_ldri)) / var(log(LDRI)),0.0,%,,,
+var(log(gamma)) / var(log(LDRI)),100.26,%,,,
+"2*cov(log(raw), log(gamma)) / var(log(LDRI))",-0.27,%,,,
+factor_R_signal,1.0,0.0,0.0,1.0,1.0
+factor_C_tilde,0.801561,0.011734,0.0146,0.772889,0.819443
+factor_T_tilde,0.99997,3.6e-05,0.0,0.999883,1.0
+factor_M_tilde,0.996621,0.002024,0.002,0.990733,0.999131
+factor_Gamma,0.030349,0.013593,0.4479,0.009629,0.0585
+log_raw_contrib_R_signal,0.0,0.0%,,,
+log_raw_contrib_C_tilde,8.6511e-06,87.2%,,,
+log_raw_contrib_T_tilde,1e-10,0.0%,,,
+log_raw_contrib_M_tilde,1.653e-07,1.7%,,,
